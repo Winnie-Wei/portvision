@@ -1,0 +1,359 @@
+{
+	"RTG":	[
+				{"x":232,"y":180,"rotation":-0.4,"jobStatus":1,"number": "R60","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 60},
+				{"x":315,"y":199,"rotation":-0.4,"jobStatus":1,"number": "R61","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 61},
+				{"x":277,"y":220,"rotation":-0.4,"jobStatus":2,"number": "R62","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 62},
+				{"x":234,"y":230,"rotation":-0.4,"jobStatus":3,"number": "R63","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 63},
+				{"x":242,"y":249,"rotation":-0.4,"jobStatus":2,"number": "R64","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 64},
+				{"x":222,"y":299,"rotation":-0.4,"jobStatus":1,"number": "R65","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 65},
+				{"x":418,"y":245,"rotation":-0.4,"jobStatus":1,"number": "R66","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 66},
+				{"x":370,"y":218,"rotation":-0.4,"jobStatus":2,"number": "R67","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 67},
+				{"x":367,"y":252,"rotation":-0.4,"jobStatus":1,"number": "R68","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 68},
+				{"x":429,"y":264,"rotation":-0.4,"jobStatus":1,"number": "R69","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 69},
+				{"x":412,"y":292,"rotation":-0.4,"jobStatus":2,"number": "R70","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 70},
+				{"x":337,"y":281,"rotation":-0.4,"jobStatus":1,"number": "R71","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 71},
+				{"x":388,"y":323,"rotation":-0.4,"jobStatus":1,"number": "R72","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 72},
+				{"x":335,"y":329,"rotation":-0.4,"jobStatus":3,"number": "R73","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 73},
+				{"x":393,"y":359,"rotation":-0.4,"jobStatus":1,"number": "R74","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 74},
+				{"x":481,"y":257,"rotation":-0.4,"jobStatus":1,"number": "R75","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 75},
+				{"x":545,"y":290,"rotation":-0.4,"jobStatus":2,"number": "R76","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 76},
+				{"x":481,"y":292,"rotation":-0.4,"jobStatus":2,"number": "R77","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 77},
+				{"x":532,"y":300,"rotation":-0.4,"jobStatus":4,"number": "R78","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 78},
+				{"x":462,"y":310,"rotation":-0.4,"jobStatus":1,"number": "R79","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 79},
+				{"x":471,"y":327,"rotation":-0.4,"jobStatus":1,"number": "R80","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 80},
+				{"x":484,"y":367,"rotation":-0.4,"jobStatus":2,"number": "R81","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 81},
+				{"x":512,"y":391,"rotation":-0.4,"jobStatus":1,"number": "R82","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 82},
+				{"x":437,"y":365,"rotation":-0.4,"jobStatus":1,"number": "R83","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 83},
+				{"x":621,"y":305,"rotation":-0.4,"jobStatus":1,"number": "R84","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 84},
+				{"x":631,"y":344,"rotation":-0.4,"jobStatus":1,"number": "R85","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 85},
+				{"x":588,"y":353,"rotation":-0.4,"jobStatus":1,"number": "R86","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 86},
+				{"x":570,"y":372,"rotation":-0.4,"jobStatus":1,"number": "R87","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 87},
+				{"x":579,"y":389,"rotation":-0.4,"jobStatus":1,"number": "R88","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 88},
+				{"x":576,"y":398,"rotation":-0.4,"jobStatus":1,"number": "R89","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 89},
+				{"x":570,"y":411,"rotation":-0.4,"jobStatus":1,"number": "R90","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 90},
+				{"x":628,"y":441,"rotation":-0.4,"jobStatus":1,"number": "R91","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 91},
+				{"x":793,"y":365,"rotation":-0.4,"jobStatus":1,"number": "R92","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 92},
+				{"x":716,"y":350,"rotation":-0.4,"jobStatus":1,"number": "R93","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 93},
+				{"x":707,"y":371,"rotation":-0.4,"jobStatus":1,"number": "R94","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 94},
+				{"x":703,"y":396,"rotation":-0.4,"jobStatus":1,"number": "R95","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 95},
+				{"x":703,"y":419,"rotation":-0.4,"jobStatus":1,"number": "R96","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 96},
+				{"x":696,"y":464,"rotation":-0.4,"jobStatus":1,"number": "R97","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 97},
+				{"x":886,"y":399,"rotation":-0.4,"jobStatus":1,"number": "R98","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 98},
+				{"x":872,"y":429,"rotation":-0.4,"jobStatus":1,"number": "R99","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 99},
+				{"x":817,"y":423,"rotation":-0.4,"jobStatus":1,"number": "R100","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 100},
+				{"x":814,"y":434,"rotation":-0.4,"jobStatus":1,"number": "R101","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 101},
+				{"x":786,"y":413,"rotation":-0.4,"jobStatus":1,"number": "R102","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 102},
+				{"x":800,"y":490,"rotation":-0.4,"jobStatus":1,"number": "R103","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 103},
+				{"x":955,"y":373,"rotation":-0.04,"jobStatus":3,"number": "R104","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 104},
+				{"x":1026,"y":396,"rotation":-0.04,"jobStatus":1,"number": "R105","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 105},
+				{"x":968,"y":430,"rotation":-0.04,"jobStatus":3,"number": "R106","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 106},
+				{"x":1036,"y":445,"rotation":-0.04,"jobStatus":3,"number": "R107","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 107},
+				{"x":1021,"y":466,"rotation":-0.04,"jobStatus":1,"number": "R108","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 108},
+				{"x":966,"y":506,"rotation":-0.04,"jobStatus":1,"number": "R109","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 109},
+				{"x":1021,"y":531,"rotation":-0.04,"jobStatus":1,"number": "R110","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 110},
+				{"x":1020,"y":547,"rotation":-0.04,"jobStatus":1,"number": "R111","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 111},
+				{"x":1165,"y":401,"rotation":-0.04,"jobStatus":1,"number": "R112","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 112},
+				{"x":1118,"y":386,"rotation":-0.04,"jobStatus":1,"number": "R113","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 113},
+				{"x":1092,"y":405,"rotation":-0.04,"jobStatus":1,"number": "R114","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 114},
+				{"x":1097,"y":426,"rotation":-0.04,"jobStatus":3,"number": "R115","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 115},
+				{"x":1182,"y":446,"rotation":-0.04,"jobStatus":1,"number": "R116","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 116},
+				{"x":1153,"y":476,"rotation":-0.04,"jobStatus":3,"number": "R117","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 117},
+				{"x":1114,"y":496,"rotation":-0.04,"jobStatus":3,"number": "R118","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 118},
+				{"x":1140,"y":510,"rotation":-0.04,"jobStatus":1,"number": "R119","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 119},
+				{"x":1120,"y":531,"rotation":-0.04,"jobStatus":1,"number": "R120","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 120},
+				{"x":1157,"y":542,"rotation":-0.04,"jobStatus":1,"number": "R121","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 121},
+				{"x":1149,"y":553,"rotation":-0.04,"jobStatus":1,"number": "R122","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 122},
+				{"x":1141,"y":565,"rotation":-0.04,"jobStatus":1,"number": "R123","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 123},
+				{"x":1233,"y":406,"rotation":-0.04,"jobStatus":1,"number": "R124","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 124},
+				{"x":1267,"y":430,"rotation":-0.04,"jobStatus":1,"number": "R125","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 125},
+				{"x":1241,"y":449,"rotation":-0.04,"jobStatus":3,"number": "R126","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 126},
+				{"x":1310,"y":466,"rotation":-0.04,"jobStatus":1,"number": "R127","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 127},
+				{"x":1237,"y":473,"rotation":-0.04,"jobStatus":3,"number": "R128","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 128},
+				{"x":1310,"y":489,"rotation":-0.04,"jobStatus":3,"number": "R129","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 129},
+				{"x":1226,"y":505,"rotation":-0.04,"jobStatus":1,"number": "R130","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 130},
+				{"x":1289,"y":512,"rotation":-0.04,"jobStatus":1,"number": "R131","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 131},
+				{"x":1303,"y":524,"rotation":-0.04,"jobStatus":1,"number": "R132","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 132},
+				{"x":1224,"y":527,"rotation":-0.04,"jobStatus":1,"number": "R133","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 133},
+				{"x":1303,"y":533,"rotation":-0.04,"jobStatus":1,"number": "R134","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 134},
+				{"x":1298,"y":554,"rotation":-0.04,"jobStatus":1,"number": "R135","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 135},
+				{"x":1235,"y":560,"rotation":-0.04,"jobStatus":1,"number": "R136","deviceType": "RTG","driver": "王阿牛","directive": "166304.4 >> 266304.3","identity": 136}
+			],
+	"TRUCK":[
+				{
+					"number": "T60",
+					"deviceType": "TRUCK",
+					"jobStatus": 1,
+					"driver": "王阿牛",
+					"directive": "166304.4 >> 266304.3",
+					"x":263,
+					"y":415,
+					"identity": 60
+				},
+				{
+					"number": "T61",
+					"deviceType": "TRUCK",
+					"jobStatus": 1,
+					"driver": "王阿牛",
+					"directive": "166304.4 >> 266304.3",
+					"x":270,
+					"y":392,
+					"identity": 61
+				},
+				{
+					"number": "T62",
+					"deviceType": "TRUCK",
+					"jobStatus": 1,
+					"driver": "王阿牛",
+					"directive": "166304.4 >> 266304.3",
+					"x":278,
+					"y":370,
+					"identity": 62
+				},
+				{
+					"number": "T63",
+					"deviceType": "TRUCK",
+					"jobStatus": 1,
+					"driver": "王阿牛",
+					"directive": "166304.4 >> 266304.3",
+					"x":283,
+					"y":349,
+					"identity": 63
+				},
+				{
+					"number": "T64",
+					"deviceType": "TRUCK",
+					"jobStatus": 1,
+					"driver": "王阿牛",
+					"directive": "166304.4 >> 266304.3",
+					"x":285,
+					"y":343,
+					"identity": 64
+				},
+				{
+					"number": "T65",
+					"deviceType": "TRUCK",
+					"jobStatus": 2,
+					"driver": "王阿牛",
+					"directive": "166304.4 >> 266304.3",
+					"x":529,
+					"y":427,
+					"identity": 65
+				},
+				{
+					"number": "T66",
+					"deviceType": "TRUCK",
+					"jobStatus": 2,
+					"driver": "王阿牛",
+					"directive": "166304.4 >> 266304.3",
+					"x":536,
+					"y":431,
+					"identity": 66
+				},
+				{
+					"number": "T67",
+					"deviceType": "TRUCK",
+					"jobStatus": 2,
+					"driver": "王阿牛",
+					"directive": "166304.4 >> 266304.3",
+					"x":548,
+					"y":434,
+					"identity": 67
+				},
+				{
+					"number": "T68",
+					"deviceType": "TRUCK",
+					"jobStatus": 2,
+					"driver": "王阿牛",
+					"directive": "166304.4 >> 266304.3",
+					"x":556,
+					"y":438,
+					"identity": 68
+				},
+				{
+					"number": "T69",
+					"deviceType": "TRUCK",
+					"jobStatus": 2,
+					"driver": "王阿牛",
+					"directive": "166304.4 >> 266304.3",
+					"x":597,
+					"y":453,
+					"identity": 69
+				},
+				{
+					"number": "T70",
+					"deviceType": "TRUCK",
+					"jobStatus": 3,
+					"driver": "王阿牛",
+					"directive": "166304.4 >> 266304.3",
+					"x":961,
+					"y":496,
+					"identity": 70
+				},
+				{
+					"number": "T71",
+					"deviceType": "TRUCK",
+					"jobStatus": 3,
+					"driver": "王阿牛",
+					"directive": "166304.4 >> 266304.3",
+					"x":544,
+					"y":369,
+					"identity": 71
+				},
+				{
+					"number": "T72",
+					"deviceType": "TRUCK",
+					"jobStatus": 3,
+					"driver": "王阿牛",
+					"directive": "166304.4 >> 266304.3",
+					"x":449,
+					"y":263,
+					"identity": 72
+				},
+				{
+					"number": "T73",
+					"deviceType": "TRUCK",
+					"jobStatus": 3,
+					"driver": "王阿牛",
+					"directive": "166304.4 >> 266304.3",
+					"x":868,
+					"y":349,
+					"identity": 73
+				},
+				{
+					"number": "T74",
+					"deviceType": "TRUCK",
+					"jobStatus": 3,
+					"driver": "王阿牛",
+					"directive": "166304.4 >> 266304.3",
+					"x":446,
+					"y":200,
+					"identity": 74
+				},
+				{
+					"number": "T75",
+					"deviceType": "TRUCK",
+					"jobStatus": 4,
+					"driver": "王阿牛",
+					"directive": "166304.4 >> 266304.3",
+					"x":530,
+					"y":157,
+					"identity": 75
+				},
+				{
+					"number": "T76",
+					"deviceType": "TRUCK",
+					"jobStatus": 4,
+					"driver": "王阿牛",
+					"directive": "166304.4 >> 266304.3",
+					"x":1043,
+					"y":355,
+					"identity": 76
+				},
+				{
+					"number": "T77",
+					"deviceType": "TRUCK",
+					"jobStatus": 4,
+					"driver": "王阿牛",
+					"directive": "166304.4 >> 266304.3",
+					"x":1191,
+					"y":336,
+					"identity": 77
+				},
+				{
+					"number": "T78",
+					"deviceType": "TRUCK",
+					"jobStatus": 4,
+					"driver": "王阿牛",
+					"directive": "166304.4 >> 266304.3",
+					"x":670,
+					"y":387,
+					"identity": 78
+				},
+				{
+					"number": "T79",
+					"deviceType": "TRUCK",
+					"jobStatus": 4,
+					"driver": "王阿牛",
+					"directive": "166304.4 >> 266304.3",
+					"x":212,
+					"y":201,
+					"identity": 79
+				}
+			],
+	"ES":	[
+				{
+					"number": "t50",
+					"jobStatus": 4,
+					"driver": "李小虎",
+					"directive": "166304.4 >> 266304.3"
+				},
+				{
+					"number": "t51",
+					"jobStatus": 2,
+					"driver": "王阿牛",
+					"directive": "166304.4 >> 266304.3"
+				},
+				{
+					"number": "t52",
+					"jobStatus": 2,
+					"driver": "王阿牛",
+					"directive": "166304.4 >> 266304.3"
+				},
+				{
+					"number": "t53",
+					"jobStatus": 1,
+					"driver": "王阿牛",
+					"directive": "166304.4 >> 266304.3"
+				},
+				{
+					"number": "t54",
+					"jobStatus": 1,
+					"driver": "王阿牛",
+					"directive": "166304.4 >> 266304.3"
+				}
+			],
+	"QC":	[
+				{
+					"number": "t40",
+					"jobStatus": 3,
+					"driver": "周斯",
+					"directive": "166304.4 >> 266304.3"
+				},
+				{
+					"number": "t41",
+					"jobStatus": 3,
+					"driver": "王阿牛",
+					"directive": "166304.4 >> 266304.3"
+				},
+				{
+					"number": "t42",
+					"jobStatus": 3,
+					"driver": "王阿牛",
+					"directive": "166304.4 >> 266304.3"
+				},
+				{
+					"number": "t43",
+					"jobStatus": 1,
+					"driver": "王阿牛",
+					"directive": "166304.4 >> 266304.3"
+				},
+				{
+					"number": "t44",
+					"jobStatus": 1,
+					"driver": "王阿牛",
+					"directive": "166304.4 >> 266304.3"
+				},
+				{
+					"number": "t45",
+					"jobStatus": 4,
+					"driver": "王阿牛",
+					"directive": "166304.4 >> 266304.3"
+				},
+				{
+					"number": "t46",
+					"jobStatus": 3,
+					"driver": "王阿牛",
+					"directive": "166304.4 >> 266304.3"
+				}
+			]
+}

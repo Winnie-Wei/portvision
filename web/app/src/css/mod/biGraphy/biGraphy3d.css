@@ -1,0 +1,60 @@
+html,
+body {
+    height: 100%;
+}
+
+.mc-bigraphy-panel,
+.biGraphyWrapperBtn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    /*width: 245px;*/
+    z-index: 900;
+    /*box-shadow: 0px 0px 3px #ddd;*/
+}
+
+.biGraphyWrapperBtn {
+    background-color: #fff;
+    padding: 10px;
+    width: 249px;
+    border: 1px solid #DBDBDB;
+    border-radius: 4px;
+}
+
+.biTodayData {
+    width: 249px;
+    /*height: 48px;*/
+    /* height: 26px; */
+    height: 120px;
+    overflow: hidden;
+}
+
+.biTodayDataWraper {
+    cursor: pointer;
+    padding: 6px;
+    padding-bottom: 0;
+    border: 1px solid #468CC7;
+    border-radius: 4px;
+    /* background-color: rgba(255, 255, 255, 0.6); */
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    color: #fff;
+}
+
+.biTodayData ul {
+    overflow: hidden;
+    font-size: 12px;
+    padding: 0;
+}
+
+.biTodayData ul>li {
+    list-style: none;
+    height: 18px;
+    line-height: 18px;
+}
+
+.biTodayData li span:last-child {
+    /* color: #319FDA; */
+    /*font-size: 16px;*/
+    font-weight: bold;
+}

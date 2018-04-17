@@ -1,0 +1,6 @@
+[
+    {"x":590,"y":136,"rotation":-0.35,"jobStatus":1,"boatWidth":144, "isArriving": false, "isArrived": true, "routeName": "南非线"},
+    {"x":886,"y":240,"rotation":-0.35,"jobStatus":1,"boatWidth":144, "isArriving": false, "isArrived": false, "routeName": "北欧线"},
+    {"x":1059,"y":275,"rotation":-0.35,"jobStatus":1,"boatWidth":144, "isArriving": true ,"isArrived": true, "routeName": "南非线"},
+    {"x":1256,"y":282,"rotation":-0.35,"jobStatus":1,"boatWidth":144, "isArriving": false ,"isArrived": false, "routeName": "北欧线"}
+]

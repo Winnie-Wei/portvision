@@ -1,0 +1,28 @@
+.eagle-eye {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#J_eagleEye {
+    /* height: 100%; */
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    border: 1px solid #43A0B2;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#J_eagleMap {
+    height: 100%;
+}
+
+.marquee {
+    position: absolute;
+    border: 1px dashed #fff;
+    background-color: rgba(67, 177, 241, 0.2);
+    z-index: 10;
+}

@@ -1,0 +1,294 @@
+html, body {
+    height: 100%;
+}
+.mc-bigraphy-panel, .biGraphyWrapperBtn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    /*width: 245px;*/
+    z-index: 900;
+    /*box-shadow: 0px 0px 3px #ddd;*/
+}
+.j-shoreChart {
+    min-height: 100px;
+}
+.biGraphyWrapperBtn {
+    background-color: #fff;
+    padding: 10px;
+    width: 249px;
+    border: 1px solid #DBDBDB;
+    border-radius: 4px;
+}
+.biTodayData {
+    width: 249px;
+    /*height: 48px;*/
+    height: 26px;
+    overflow:hidden;
+}
+.biTodayDataWraper {
+    cursor: pointer;
+    padding: 6px;
+    padding-bottom: 0;
+    border: 1px solid #DBDBDB;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.6);
+    overflow: hidden;
+}
+.biTodayData ul {
+    overflow: hidden;
+    font-size: 14px;
+    padding: 0;
+}
+.biTodayData ul>li{
+    list-style: none;
+    height: 22px;
+    line-height: 22px;
+}
+.biTodayData li span:last-child {
+    color: #319FDA;
+    /*font-size: 16px;*/
+    font-weight: bold;
+}
+.biTodayAllData {
+    height: auto;
+}
+.biGraphyWrapperBtn:hover {
+    border-color: #429EE9;
+    cursor: pointer;
+}
+.mc-bigraphy-panel.active {
+	display: block;
+}
+.mc-bigraphy-panel ul {
+    /*border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;*/
+    /*padding: 0 83px;*/
+}
+.mc-bigraphy-panel ul>li {
+	/*height: 34px;*/
+	/*width: 25% !important;*/
+    text-align: center;
+    /*float: left;*/
+    background-color: transparent;
+    /*width: 86.5px;*/
+    /*margin-right: 0 !important;*/
+    font-size: 16px;
+}
+.mc-bigraphy-panel li>a {
+    height: 34px;
+	padding: 4px;
+	/*height: 100%;*/
+    /*width: 50px;*/
+	border-bottom: 0px !important;
+}
+.mc-bigraphy-panel .active > a {
+    color: #3095E5 !important;
+	border: 0px !important;
+    border-bottom: 2px solid #5DA9F2 !important;
+    background-color: #F5F5F5 !important;
+	border-radius: 0px !important;
+}
+.mc-bigraphy-panel .panel {
+	border-top: 0px;
+	margin: 0px;
+    width: 512px;
+    padding: 10px;
+    border-radius: 0;
+    border: 0;
+    box-shadow: none;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.mc-bigraphy-panel .panel-title {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    width: 512px;
+    background-color: #F5F5F5;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    position: relative;
+}
+.mc-bigraphy-panel .panel-title span {
+    position: absolute;
+    z-index: 2000;
+    right: 10px;
+    line-height: 34px;
+    width: 20px;
+    text-indent: -9999px;
+    background: url(./images/narrow.png) center no-repeat;
+    background-size: 16px;
+}
+.nav-tabs {
+    background-color: transparent;
+}
+.mc-bigraphy-panel .panel-body {
+	padding: 0px;
+    font-size: 12px;
+}
+.container-throughput {
+	padding: 0;
+    text-align: center;
+}
+.container-throughput p:first-child {
+    color: #3095E5;
+    font-size: 16px;
+    margin: 0px;
+}
+.container-throughput p:last-child {
+    font-size: 14px;
+}
+.port-indicator {
+	padding: 0;
+}
+.port-indicator > div {
+	padding: 0px;
+}
+.indicator-item {
+    border: 1px solid #DBDBDB;
+    border-radius: 1px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #F5F5F5;
+}
+.container-throughput {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.shore-statistical {
+    margin-right: 10px;
+}
+.gate-statistical {
+    margin-left: 10px;
+}
+.yard-statistical {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.indicator-item:hover, .indicator-item.active {
+    border-color: #3095E5;
+    box-shadow: 0px 0px 3px #3095E5;
+}
+
+/*.mc-bigraphy-panel .indicator-item:after {
+    content: '';
+    position: relative;
+    top: 5px;
+    border-bottom: 1px solid #ddd;
+    height: 1px;
+    width: 100%;
+}*/
+.port-indicator>div>div {
+    height: 75px;
+}
+.gate-statistical.indicator-item:after  {
+    border-bottom: 1px solid transparent;
+}
+.indicator-cell {
+    height: 21px;
+}
+.indicator-cell span:first-child {
+    margin: 0px;
+}
+.indicator-cell span:last-child {
+    color: #3095E5;
+    margin: 0px;
+    text-align: center;
+}
+/* 进度条 */
+.mc-efficiency-progress {
+	height: 50%;
+}
+.mc-efficiency-progress .progress-bar {
+	background-color: #3095E5;
+}
+.port-indicator .progress {
+	height: 10px;
+	margin-bottom: 5px;
+}
+
+/* bi图表弹框 */
+#J_biGraphyModal .masker {
+    position: absolute;
+    z-index: 1100;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    -webkit-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    transition: opacity .15s linear;
+}
+.j-biGraphyModal{
+    position: absolute;
+    z-index: 1200;
+    width: 816px;
+    height: 60%;
+    left: 50%;
+    top: 15%;
+    margin-left: -408px;
+}
+@media screen and (max-height: 800px) {
+    .j-biGraphyModal {
+        height: 80%;
+    }
+}
+.j-biGraphyModal .panel {
+    height: 100%;
+}
+.j-biGraphyModal .panel-heading {
+    overflow: hidden;
+    background-color: #F5F5F5;
+}
+.j-biGraphyModal .panel-heading h3 {
+    float: left;
+    color: #3098e5;
+}
+.j-biGraphyModal .panel-heading span {
+    float: right;
+    cursor: pointer;
+}
+.j-biGraphyModal .panel-body {
+    height: calc(100% - 41px);
+}
+.mc-chart-title {
+    font-size: 14px;
+    color: black;
+    margin: 0;
+    margin-right: 58px;
+    margin-bottom: 10px;
+}
+.chart-title-top {
+    margin-top: 10px;
+}
+.j-biGraphyModal .select {
+    float: right;
+    margin-bottom: 10px;
+}
+.hpheight {
+    height: 100%;
+    position: relative;
+}
+
+/*计划和完成*/
+#J_plan {
+    height: 20%;
+}
+#J_plan>div {
+    float: left;
+    margin-left: 10%;
+    font-size: 16px;
+    text-align: center;
+}
+#J_plan>div:first-child>p {
+    color: #F76A5C;
+}
+#J_plan>div:last-child>p {
+    color: #42C3F3;
+}
+#J_plan>div>p {
+    font-size: 26px;
+}
+#J_plan>div>h3 {
+    font-size: 12px;
+    margin-top: 0;
+}

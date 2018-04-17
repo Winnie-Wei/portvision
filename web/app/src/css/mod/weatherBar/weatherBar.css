@@ -1,0 +1,19 @@
+.bar-weather{
+	font-size: 12px;
+	box-sizing:border-box;
+	height:36px;
+	padding:0 5px ;
+	background:  url(images/icon-weather.png) center left 5px no-repeat #ffffff;
+	padding-left: 35px;
+	display: inline-block;
+	color: #627c8a;
+	line-height:2.5em;
+	vertical-align:middle;
+	box-shadow: 2px 2px 5px #A7C7D9;
+}
+.bar-weather span{ display: block;line-height:1.5em;}
+
+.bar-weather:hover{
+	/*background:  url(images/icon-weather-hover.png) center left 5px no-repeat #fff;*/
+	color: #3095e5;
+}

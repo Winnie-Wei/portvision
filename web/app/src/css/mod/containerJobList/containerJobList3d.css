@@ -1,0 +1,148 @@
+.list-box {
+    /*background-color: #FFF;*/
+}
+
+.containerJobList {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    width: 360px;
+    z-index: 990;
+}
+
+.contJobListLayout {
+    left: 20px;
+}
+
+.plan-box,
+.complete-box,
+.in-the-box {
+    /*background-color: rgba(161,202,242,0.7);*/
+    /*background-color: rgba(85, 152, 218, 0.7);*/
+    /* background-color: rgba(71, 157, 231, 0.5); */
+    background: linear-gradient(rgba(79, 144, 252, 0.7), rgba(4, 23, 52, 0.7));
+    border-radius: 4px;
+    height: 28px;
+}
+
+.plan-box span,
+.complete-box span,
+.in-the-box span {
+    line-height: 28px;
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+}
+
+.plan-box>span,
+.complete-box>span,
+.in-the-box>span {
+    padding-left: 10px;
+    width: 50%;
+}
+
+.container-num-box,
+.in-the-box {
+    margin-bottom: 10px;
+}
+
+.plan-box {
+    float: left;
+    width: 48.5%;
+}
+
+.plan-jobNum,
+.complete-jobNum {
+    text-align: right;
+    width: 50%;
+    position: relative;
+    right: 10px;
+}
+
+.complete-box {
+    float: right;
+    width: 48.5%;
+}
+
+.in-the-jobNum {
+    text-align: right;
+    float: right;
+    position: relative;
+    right: 10px;
+}
+
+.table-containerJob th {
+    padding-right: 10px;
+}
+
+.table-containerJob th:last-child {
+    padding-right: 0px;
+}
+
+.table-containerJob th span {
+    border-radius: 4px;
+    height: 28px;
+    /*background-color: rgba(161,202,242,0.7);*/
+    /*background-color: rgba(85, 152, 218, 0.7);*/
+    /* background-color: rgba(71, 157, 231, 0.5); */
+    background: linear-gradient(rgba(79, 144, 252, 0.7), rgba(4, 23, 52, 0.7));
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 28px;
+    color: white;
+    font-size: 12px;
+}
+
+.containerJobList-tbody {
+    height: 140px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 0 0 4px 4px;
+}
+
+.containerJobList-tbody tr {
+    height: 20px;
+}
+
+.containerJobList-tbody tr td:first-child {
+    /* width: 100%; */
+}
+
+.containerJobList-tbody tr td {
+    text-align: center;
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+.ctn-num:hover {
+    color: #00AEFF;
+}
+
+.mc-contJobList-panel {
+    position: static;
+}
+
+.mc-contJobList-panel .panel-title {
+    width: 100%;
+}
+
+.mc-contJobList-panel .panel {
+    width: 100%;
+}
+
+#marquee {
+    overflow: hidden;
+}
+
+#marquee ul {
+    list-style: none;
+    padding: 0px;
+    /* color: #484848; */
+    color: #fff;
+}
+
+#marquee ul li {
+    line-height: 20px;
+    width: 100%;
+}

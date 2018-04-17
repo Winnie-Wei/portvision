@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>港口可视化平台</title>
+    <base target="_self">
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../src/css/main.css">
+    <link rel="stylesheet" href="../../src/js/plugin/jqwidgets/styles/jqx.base.css" type="text/css" />
+    <link rel="stylesheet" href="../../src/css/lib/bootstrap_3.3.6.min.css">
+    <link rel="stylesheet" href="../../src/css/mod/page/warn.css">
+</head>
+<body>
+    <div class="clearfix heading">
+        <h3 class="pull-left nomgtop">告警列表</h3>
+        <button class="btn btn-default pull-right go-back" type="button"><a href="/portvision/web/app/views/monitor/index.html">返回</a></button>
+    </div>
+    <div class="wraper">
+        <div class="panel panel-default">
+            <div class="panel-heading clearfix">
+                <h5 class="pull-left">共有<span class="num"></span>条告警未处理</h5>
+                <div class="pull-right clearfix">
+                    <div class="btn-group-time btn-group pull-left mgleft" role="group" aria-label="...">
+                        <button type="button" class="btn btn-default j-today">今天</button>
+                        <button type="button" class="btn btn-default j-yesterday">昨天</button>
+                        <button type="button" class="btn btn-default j-sevenDays">近七天</button>
+                    </div>
+                    <div id="jqxDateWraper" class="pull-left mgleft">
+                        <div id="jqxDate"></div>
+                    </div>
+                    <div class="input-group pull-left searchInput mgleft">
+                        <input type="text" class="form-control pull-left inline-block" placeholder="请输入告警内容关键字">
+                        <span class="input-group-btn pull-left">
+                            <button class="btn btn-default j-search" type="button">搜索</button>
+                        </span>
+                    </div>
+                    <div class="mgleft filter theadFilter pull-left"></div>
+                    <a class="export j-export inline-block mgleft" href=""></a>
+                </div>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead class="warnListThead">
+                       <!--  <tr>
+                            <th>状态<span class="caret"></span><span class="filter contentFilter"></span></th>
+                            <th>告警编号<span class="caret"></span><span class="filter contentFilter"></span></th>
+                            <th>告警级别<span class="caret"></span><span class="filter contentFilter"></span></th>
+                            <th>告警类型<span class="caret"></span><span class="filter contentFilter"></span></th>
+                            <th>告警内容<span class="caret"></span><span class="filter contentFilter"></span></th>
+                            <th>发生时间<span class="caret"></span><span class="filter contentFilter"></span></th>
+                        </tr> -->
+                    </thead>
+                    <tbody class="warnListTbody">
+                        
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-footer clearfix">
+                <div class="pull-right page mgtop"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="../../src/js/lib/jquery_2.2.4.min.js"></script>
+    <!-- jedate -->
+    <!-- <script src="../../src/js/plugin/jedate/jquery.jedate.js"></script> -->
+    <script src="../../src/js/lib/bootstrap_3.3.6.min.js"></script>
+    <script src="../../src/js/plugin/underscore/underscore.1.8.3.min.js"></script>
+    <script type="text/javascript" src="../../src/js/plugin/jqwidgets/demos.js"></script>
+    <script type="text/javascript" src="../../src/js/plugin/jqwidgets/jqxcore.js"></script>
+    <script type="text/javascript" src="../../src/js/plugin/jqwidgets/jqxdatetimeinput.js"></script>
+    <script type="text/javascript" src="../../src/js/plugin/jqwidgets/jqxcalendar.js"></script>
+    <script type="text/javascript" src="../../src/js/plugin/jqwidgets/globalization/globalize.js"></script>
+    <script type="text/javascript" src="../../src/js/plugin/jqwidgets/globalization/globalize.culture.ch-CH.js"></script>
+    <script src="../../src/js/lib/esl.js"></script>
+    <script src="../../src/js/config.js"></script>
+    <script src="../../src/js/controllers/warn/list.js"></script>    
+    
+</body>
+
+</html>

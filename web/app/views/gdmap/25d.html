@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">    
+        <title>港口可视化平台</title>
+        <base target="_self">
+        <meta name="description" content="">
+        <!-- lib css files -->
+        <link rel="stylesheet" href="../../src/css/lib/bootstrap_3.3.6.min.css">
+        <!-- <link rel="stylesheet" href="../../src/js/plugin/datetimepicker/bootstrap-datetimepicker.min.css"> -->
+        <!-- jeDate css -->
+        <link rel="stylesheet" type="text/css" href="../../src/js/plugin/jedate/skin/jedate.css">
+        <!-- app css files -->
+        <link rel="stylesheet" href="../../src/css/main.css">
+        <link rel="stylesheet" href="../../src/css/mod/monitor.css">
+        <!-- toolBar -->
+        <link rel="stylesheet" href="../../src/css/mod/toolBar/toolBar.css">
+        <!-- biAnaly -->
+        <link rel="stylesheet" href="../../src/css/mod/biAnalyBar/biAnalyBar.css">
+        <!-- weather -->
+        <link rel="stylesheet" href="../../src/css/mod/weatherBar/weatherBar.css">
+        <!-- dataAnalyse -->
+        <link rel="stylesheet" href="../../src/css/mod/dataAnalyse/dataAnalyse.css">
+        <!-- mapZoom -->
+        <link rel="stylesheet" href="../../src/css/mod/mapZoomBar/mapZoomBar.css">
+        <!-- mapLegend -->
+        <link rel="stylesheet" href="../../src/css/mod/mapLegend/mapLegend.css">
+        <!-- biGraphy -->
+        <link rel="stylesheet" href="../../src/css/mod/biGraphy/biGraphy.css">
+        <link rel="stylesheet" href="../../src/css/mod/biGraphy/chart.css">
+        <!-- globalSearch -->
+        <link rel="stylesheet" href="../../src/css/mod/globalSearch/globalSearch.css">
+        <!-- popup -->
+        <link rel="stylesheet" href="../../src/css/mod/popup/index.css">
+        <!-- warnPop -->
+        <link rel="stylesheet" href="../../src/css/mod/warnPop/warnPop.css">
+        <!-- device about -->
+        <link rel="stylesheet" href="../../src/css/mod/device/device.css">
+        <!-- container job list -->
+        <link rel="stylesheet" href="../../src/css/mod/containerJobList/containerJobList.css">
+        
+        <!-- about replay -->
+        <!-- player -->
+        <link rel="stylesheet" href="../../src/css/mod/player/player.css">
+        <!-- recordToolBar -->
+        <link rel="stylesheet" href="../../src/css/mod/recordToolBar/recordToolBar.css">
+        <link rel="shortcut icon" href="favicon.ico">
+    </head>
+    <body>
+    	<!--[if lt IE 9]>
+        <div class="alert alert-info text-center" role="alert" >
+	          由于本系统不兼容IE部分版本，为能达到使用效果，请使用谷歌CHROME或火狐FIREFOX浏览器打开本页面。
+	    </div>
+        <![endif]-->
+<div class="home" >
+    <!-- 工具栏 start -->
+    <div class="j-toolBarSwitch toolBarSwitch"></div>
+    <div id="J_toolBar" class="toolBar active"></div>
+    <div id="device-statistical"></div>
+    <!-- 工具栏 end -->
+
+    <!-- 搜索 start -->
+    <div id="J_global_search" class="global-search"></div>
+    <!-- 搜索 end -->
+
+    <!-- 集装箱作业表 start -->
+    <div id="J_containerJobList" class="containerJobList"></div>
+    <!-- 集装箱作业表 end -->
+
+    <!-- 地图缩放 start -->
+    <div id="J_mapZoomBar"></div>
+    <!-- 地图缩放 end -->
+
+    <!-- 关闭轨迹 start -->
+    <div id="J_closeTrail"></div>
+    <!-- 关闭轨迹 end -->
+
+    <!-- 图例 start -->
+    <div id="J_mapLegend" class="map-legend-wraper "></div>
+    <!-- 图例 end -->
+
+    <!-- 告警 start -->
+    <div id="J_newWarn"></div>
+    <div id="J_warnList"></div>
+    <!-- 告警 end -->
+    
+    <div id="J_biGraphy"></div>
+    <div id="J_biGraphyModal"></div>
+
+    <!-- 设备概况 start -->
+    <div id="J_deviceProfile"></div>
+    <!-- 设备概况 end -->
+
+    <!-- 设备详情 start -->
+    <div id="J_deviceDetail"></div>
+    <!-- 设备详情 end -->
+
+    <!-- 箱堆贝位展开浮层 start -->
+    <div id="J_blockPop"></div>
+
+    <!-- 设备详情展开浮层 end -->
+    <div id="J_centerPop"></div>
+    <div id="J_monitorMain" class="bg-blue canvas-div" style="width:100%;height:268px;"></div>
+    <!-- <div id="container" tabindex="0" style="width:100%;height:268px;"></div> -->
+
+    <div id="J_consolePanel" style="display:none;width:500px;height:30px;background:#fff;position:absolute;bottom:10px; left:50%; margin-left:-250px;color:#333;text-align:center;padding:5px;"></div>
+</div>
+
+<!-- lib js files -->
+		<script src="../../src/js/lib/jquery_2.2.4.min.js"></script>
+        <!-- jedate -->
+        <!-- <script src="../../src/js/plugin/jedate/jquery.jedate.js"></script> -->
+        <script src="../../src/js/lib/bootstrap_3.3.6.min.js"></script>       
+        <script src="../../src/js/plugin/underscore/underscore.1.8.3.min.js"></script>        
+        <script src="../../src/js/lib/echarts/echarts.common.min.js"></script>
+        <script type="text/javascript" src="../../src/js/lib/esl.js"></script>
+        <!-- jsRender js -->
+        <script src="../../src/js/plugin/jsrender/jsrender.js"></script>
+        <!-- marquee -->
+        <script src="../../src/js/plugin/marquee/Marquee.js"></script>
+        <!-- timer js -->
+        <!-- <script src="../../src/js/plugin/timer/jquery.timer.js"></script> -->
+		<!-- app js files -->
+		<script src="../../src/js/lib/mock.js"></script>
+        
+        
+        <!-- page script files s -->
+        <!-- <script src="../../src/js/app.js"></script> -->
+        <script src="../../src/js/config.js"></script>
+        <script src="http://webapi.amap.com/maps?v=1.4.0&key=13a402e6e55ddf6da5ff8191b3a20d24"></script> 
+        <script src="../../src/js/lib/gdmap/ui.v1.0.js"></script>   
+        <script src="../../src/js/controllers/gdmap/25d.js"></script>       
+        <!-- page script files e -->
+	</body>
+</html>

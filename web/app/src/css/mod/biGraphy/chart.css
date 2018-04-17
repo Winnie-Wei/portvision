@@ -1,0 +1,39 @@
+
+/*表格*/
+@media screen and (min-width: 1400px) {
+    body .mc-table.over thead {
+        width: calc( 100% - 17px ) !important;
+    }
+}
+ /*.mc-table thead tr th {
+    word-break: keep-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    width: 76px;
+ }*/
+/*js判断超过则添加over类*/
+.mc-table.over {
+    background-color: #EEEEEE;
+}
+.mc-table.over thead {
+    width: calc( 100% - 16px ) !important;;
+}
+.mc-table thead tr th, .mc-table tbody tr td {
+    border-bottom-width: 1px !important;
+    padding: 4px;
+}
+.mc-table.over thead, .mc-table.over tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+.mc-table.over thead th:last-child {
+    border-right: 0;
+}
+.mc-table.over tbody {
+    display: block;
+    height: 145px;
+    width: 100%;
+    overflow-y: auto;
+}

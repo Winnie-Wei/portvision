@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>港口可视化平台</title>
+    <base target="_self">
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../../src/css/mod/eagleEye/eagleEye.css">
+    <!-- biGraphy -->
+    <link rel="stylesheet" href="../../src/css/mod/biGraphy/biGraphy3d.css">
+    <!-- container job list -->
+    <link rel="stylesheet" href="../../src/css/mod/containerJobList/containerJobList3d.css">
+
+    <!-- lib css files -->
+    <link rel="stylesheet" href="../../src/css/lib/bootstrap_3.3.6.min.css">
+</head>
+
+<body style="margin:0; padding:0;overflow:hidden;">
+    <!--[if lt IE 9]>
+        <div class="alert alert-info text-center" role="alert" >
+              由于本系统不兼容IE部分版本，为能达到使用效果，请使用谷歌CHROME或火狐FIREFOX浏览器打开本页面。
+        </div>
+        <![endif]-->
+    <div class="home">
+        <div style="width: 10px; height: 10px; border: 1px solid blue; position: absolute; left: 50%; top: 50%;"></div>
+        <div id="J_monitorMain" class="bg-blue canvas-div" style="width:100%;height:268px;"></div>
+
+        <!-- 鹰眼 -->
+        <div id="J_eagleEye"></div>
+
+        <!-- bi信息 -->
+        <div id="J_biGraphy"></div>
+
+        <!-- 集装箱作业表 start -->
+        <div id="J_containerJobList" class="containerJobList"></div>
+        <!-- 集装箱作业表 end -->
+    </div>
+
+    <!-- lib js files -->
+    <script type="text/javascript" src="../../src/js/lib/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="../../src/js/plugin/underscore/underscore.1.8.3.min.js"></script>
+    <script type="text/javascript" src="../../src/js/plugin/marquee/Marquee.js"></script>
+
+    <!-- app js files -->
+    <script type="text/javascript" src="../../src/js/lib/mock.js"></script>
+    <!-- page script files s -->
+    <!-- <script type="text/javascript" src="../../src/js/lib/three/three.min.js"></script> -->
+    <script type="text/javascript" src="../../src/js/lib/three/three.js"></script>
+    <script type="text/javascript" src="../../src/js/lib/three/three.interaction.js"></script>
+    <script type="text/javascript" src="../../src/js/lib/tween/Tween.js"></script>
+    <script type="text/javascript" src="../../src/js/lib/three/loaders/MTLLoader.js"></script>
+    <script type="text/javascript" src="../../src/js/lib/three/loaders/OBJLoader.js"></script>
+    <script type="text/javascript" src="../../src/js/lib/three/controls/OrbitControls.js"></script>
+    <script type="text/javascript" src="../../src/js/lib/three/controls/TrackballControls.js"></script>
+    <script type="text/javascript" src="../../src/js/lib/three/Detector.js"></script>
+    <script type="text/javascript" src="../../src/js/lib/three/Stats.js"></script>
+    <script type="text/javascript" src="../../src/js/lib/three/renderers/Projector.js"></script>
+    <script type="text/javascript" src="../../src/js/lib/esl.js"></script>
+    <script type="text/javascript" src="../../src/js/config.js"></script>
+    <script type="text/javascript" src="../../src/js/controllers/monitor/3d.js"></script>
+    <!-- page script files e -->
+</body>
+
+</html>

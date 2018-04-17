@@ -1,0 +1,185 @@
+html {
+    overflow-x: hidden;
+}
+body {
+    background-color: #F2F2F2;
+}
+.mc-col-padding {
+    padding: 0;
+}
+.all-height {
+    height: 100%;
+}
+.content {
+    padding: 0 15px;
+}
+.heading {
+    margin: 20px;
+}
+.heading h3 {
+    float: left;
+    margin: 0px;
+    font-size: 16px;
+    line-height: 34px;
+}
+.go-back {
+    padding: 0;
+    border: 0;
+}
+.go-back a {
+    display: block;
+    width: 70px;
+    height: 100%;
+    line-height: 34px;
+    background-color: #2893e8;
+    color: white;
+    border-radius: 3px;
+}
+.boat-info-body {
+    padding: 0 15px 15px 15px;
+    padding-top: 74px;
+    margin-top: -74px;
+}
+.body-bg {
+    position: relative;
+    background-color: white;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-shadow: 1px 1px #dddddd;
+}
+.boat-panel-title {
+    font-size: 14px;
+}
+.boat-basic-content, .boat-realtime-content {
+    width: 100%;
+}
+.boat-basic-content td {
+    padding: 8px 5px;
+}
+.boat-basic-content td:nth-child(odd) {
+    background-color: #F2F2F2;
+    width: 100px;
+}
+.boat-realtime-content td {
+    padding: 6px !important;
+}
+.boat-realtime-content tr td:first-child {
+    width: 100px;
+}
+.boat-realtime-content tbody tr:nth-child(odd) {
+    background-color: #ECF9FE;
+}
+.boat-realtime-content tr:first-child, .boat-realtime-content tr td:first-child {
+    background-color: #F2F2F2 !important;
+}
+.boat-status, .boat-boxInfo {
+    height: 150px;
+}
+#J_boatStatus {
+    height: 100%;
+    margin-top: -35px;
+    padding-top: 10px;
+}
+.indicator-item p {
+    text-align: center;
+    margin: 0px;
+}
+.indicator-value {
+    color: #2893e8;
+    font-size: 30px;
+}
+#J_taskStatus {
+    height: 24px;
+    background-color: #2893e8;
+    line-height: 24px;
+    border-radius: 3px;
+    padding: 0 10px;
+    color: white;
+    margin-left: 15px;
+    cursor: pointer;
+}
+/* .boat-view {
+    position: absolute;
+    top: 300px;
+    bottom: 15px;
+    overflow-x: auto;
+} */
+.boat-view-header {
+    margin: 10px 0;
+}
+.boxes-style table td {
+    font-size: 12px;
+    width: 38px;
+    max-width: 38px;
+    height: 16px;
+    line-height: 16px;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    cursor: pointer;
+}
+.boxes-style td.row-number, .boxes-style .bay-number td, .boxes-style .bay-number td.row-number {
+    cursor: default;
+    border-color: transparent;
+    border-bottom: 0;
+}
+.boxes-style td.row-number {
+    border-color: transparent;
+    border-bottom: 0;
+    border-right: 1px solid #dbdbdb;
+}
+.boxes-style td.bay.txt {
+    border-color: #fff;
+    border-bottom: 0;
+    height: 30px;
+    line-height: 30px;
+}
+.boat-view .pop-info {
+    /* position: absolute;
+    top: 0px;
+    right: 15px;
+    left: 15px;
+    bottom: 0px; */
+    /* display: inline-block; */
+    overflow-x: auto;
+}
+.boat-view .loading-img {
+    background: url(../../../images/loading-b.gif) center no-repeat;
+    width: 100%;
+    height: 50px;
+    margin-top: 25px;
+    display: none;
+}
+.boat-view .loading-active{
+	display: block;
+}
+.pop-info .loading-img {
+    margin: 50px 0;
+}
+.pop-info .boxes-active {
+    display: block;
+    margin-bottom: 10px;
+}
+.no-box-place {
+    border: 0 !important;
+}
+.check-bay {
+	border-right: 2px solid #3095E5 !important;
+	border-left: 2px solid #3095E5 !important;
+	box-shadow: 0 1px 1px rgba(48, 149, 229, .9) !important;
+}
+.check-bay-start{
+	border-top: 2px solid #3095E5 !important;
+}
+.check-bay-end {
+	border-bottom: 2px solid #3095E5 !important;
+}
+#J_taskBarChart {
+    height: 300px;
+}
+#J_centerPop {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}

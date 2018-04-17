@@ -1,0 +1,29 @@
+.bar-map-zoom{
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	box-sizing:border-box;
+	width: auto;
+	height: auto;
+	display: inline-block;
+	width: 26px;
+	height: 51px;
+	background:  url(images/icon-bg-zoom.png) center center no-repeat #ffffff;
+	z-index: 1000;
+}
+.bar-map-zoom .zoomBox{	
+	width: 26px;
+	height:26px;
+}
+.bar-map-zoom .zoomIn{
+	background:  url(images/icon-zoom-in.png) center center no-repeat;
+}
+.bar-map-zoom .zoomIn:hover{
+	background:  url(images/icon-zoom-in-hover.png) center center no-repeat;
+}
+.bar-map-zoom .zoomOut{
+	background:  url(images/icon-zoom-out.png) center center no-repeat;
+}
+.bar-map-zoom .zoomOut:hover{
+	background:  url(images/icon-zoom-out-hover.png) center center no-repeat;
+}

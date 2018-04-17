@@ -1,0 +1,6 @@
+[
+	{"type": "LOAD", "fillColor": "#6587FF", "x": 662, "y": 210},
+	{"type": "DSCH", "fillColor": "#F58F00", "x": 870, "y": 280},
+	{"type": "DLVR", "fillColor": "#38D016", "x": 496, "y": 491},
+	{"type": "RECV", "fillColor": "#F36067", "x": 1075, "y": 668}
+]

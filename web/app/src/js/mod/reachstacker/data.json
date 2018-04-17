@@ -1,0 +1,70 @@
+[
+	{
+		"number": "T60",
+		"licensePlateNNumber": "浙B 39857",
+		"rotation":1.2,
+		"isCarryCargo": true,
+		"deviceType": "TRUCK",
+		"jobStatus": 1,
+		"driver": "test",
+		"isRegulatory": 1,
+		"x":340,
+		"y":180,
+		"identity": 60
+	},{
+		"number": "T60",
+		"licensePlateNNumber": "浙B 39857",
+		"rotation":1.2,
+		"isCarryCargo": true,
+		"deviceType": "TRUCK",
+		"jobStatus": 1,
+		"driver": "test",
+		"isRegulatory": 1,
+		"x":133,
+		"y":110,
+		"identity": 60
+	},{
+		"number": "T60",
+		"licensePlateNNumber": "浙B 39857",
+		"rotation":1.2,
+		"isCarryCargo": true,
+		"deviceType": "TRUCK",
+		"jobStatus": 1,
+		"driver": "test",
+		"isRegulatory": 1,
+		"x":119,
+		"y":119,
+		"identity": 60
+	},{
+		"number": "T60",
+		"licensePlateNNumber": "浙B 39857",
+		"rotation":1.2,
+		"isCarryCargo": true,
+		"deviceType": "TRUCK",
+		"jobStatus": 1,
+		"driver": "test",
+		"isRegulatory": 1,
+		"x":76,
+		"y":251,
+		"identity": 60
+	},{
+		"number": "T60",
+		"licensePlateNNumber": "浙B 39857",
+		"rotation":1.2,
+		"isCarryCargo": true,
+		"deviceType": "TRUCK",
+		"jobStatus": 1,
+		"driver": "test",
+		"isRegulatory": 1,
+		"x":288,
+		"y":327,
+		"identity": 60
+	},
+	{"x":975,"y":579,"rotation":-0.04,"jobStatus":1},
+	{"x":985,"y":625,"rotation":-0.04,"jobStatus":1},
+	{"x":1067,"y":594,"rotation":-0.04,"jobStatus":1},
+	{"x":1075,"y":599,"rotation":-0.04,"jobStatus":2},
+	{"x":1167,"y":594,"rotation":-0.04,"jobStatus":4},
+	{"x":1207,"y":642,"rotation":-0.04,"jobStatus":3},
+	{"x":1219,"y":617,"rotation":-0.4,"jobStatus":1}
+]

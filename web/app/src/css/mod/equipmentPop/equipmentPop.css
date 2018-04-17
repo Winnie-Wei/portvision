@@ -1,0 +1,325 @@
+.device-statistical {
+    position: absolute;
+    z-index: 1110;
+    top: 0px;
+    bottom: 0px;
+    left: 60px;
+    background-color: white;
+}
+
+.bar-biAnaly {
+    font-size: 12px;
+    line-height: 36px;
+    box-sizing: border-box;
+    height: 36px;
+    padding: 0 5px;
+    padding-left: 25px;
+    background: url('images/icon-analy.png') center left 7px no-repeat #ffffff;
+    display: inline-block;
+    color: #627c8a;
+    vertical-align: middle;
+    box-shadow: 2px 2px 5px #A7C7D9;
+}
+
+.bar-biAnaly.active {
+    color: #3095e5;
+    background: url('images/icon-analy-hover.png') center left 7px no-repeat #ffffff;
+}
+
+.bar-biAnaly:hover {
+    /*background:  url(images/icon-analy-hover.png) center left 7px no-repeat #fff;*/
+    color: #3095E5;
+}
+
+.mc-panel-group .panel-default:not(:first-child) {
+    margin-top: 20px !important;
+}
+
+.mc-panel-group .panel-title {
+    float: left;
+}
+
+.mc-panel-group .panel-body {
+    padding: 0px;
+    color: #627c8a;
+}
+
+#J_device_replay .mc-panel {
+    display: none;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#J_device_replay .mc-panel-heading {
+    height: 32px;
+    background-color: rgba(245, 245, 245, 0.6);
+}
+
+#biAnalyBar .mc-panel-heading .panel-title {
+    color: #627c8a;
+}
+
+.mc-panel-heading title {
+    margin-right: 16px;
+    color: #627c8a;
+    display: inline-block;
+}
+
+.mc-panel-heading font {
+    color: #3095e5;
+    margin-right: 10px;
+}
+
+.mc-panel-heading a {
+    float: right;
+    background: url(../../../../src/js/mod/equipmentPop/images/expand.png);
+    width: 16px;
+    height: 17px;
+}
+
+.mc-panel-heading a.collapsed {
+    background: url(../../../../src/js/mod/equipmentPop/images/pack-up.png);
+}
+
+.device-tbody {
+    max-height: 460px;
+    overflow-y: auto;
+}
+
+@media screen and (max-height: 768px) {
+    .device-tbody {
+        max-height: 360px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .device-tbody {
+        /*max-height: 200px;*/
+    }
+}
+
+.table-biAnaly {
+    width: 100%;
+    max-height: 260px;
+    font-size: 12px;
+}
+
+.table-biAnaly thead tr {
+    height: 30px;
+}
+
+.table-biAnaly tbody {
+    background-color: #F5F5F5;
+}
+
+.table-biAnaly th,
+.table-biAnaly td {
+    padding-left: 10px;
+    line-height: 100%;
+}
+
+.check-all-box label {
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+td.mc-table-column-1 {
+    float: left;
+}
+
+.status-active {
+    color: #26ba30;
+}
+
+.status-hasJob {
+    color: #f502fe;
+}
+
+.status-free {
+    color: #64a3f1;
+}
+
+.status-error {
+    color: #e44c09;
+}
+
+.status-repair {
+    color: #e99839;
+}
+
+.table-biAnaly tbody tr:hover {
+    background-color: #3095e5;
+    color: white;
+}
+
+.device-error {
+    background-color: red;
+    color: white;
+}
+
+.table-biAnaly .device-error:hover {
+    background-color: red;
+    color: white;
+}
+
+.table-biAnaly .checkbox {
+    margin: 0;
+}
+
+.table-biAnaly .checkbox label {
+    line-height: 22px;
+}
+
+.active-panel {
+    display: block;
+    top: 60px;
+    left: 30px;
+    bottom: 60px;
+}
+
+.mc-panel-group {
+    background-color: #fff;
+    padding: 20px;
+    border: 0px;
+    overflow-y: auto;
+    display: none;
+    height: auto;
+    min-width: 470px;
+}
+
+.mc-panel-group .panel-default:not(:first-child) {
+    margin-top: 20px !important;
+}
+
+.mc-panel-group .panel-title {
+    float: left;
+}
+
+.mc-panel-group .panel-body {
+    padding: 0px;
+    color: #627c8a;
+}
+
+#J_device_replay .mc-panel {
+    display: none;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#J_device_replay .mc-panel-heading {
+    height: 32px;
+    background-color: rgba(245, 245, 245, 0.6);
+}
+
+#biAnalyBar .mc-panel-heading .panel-title {
+    color: #627c8a;
+}
+
+.mc-panel-heading title {
+    margin-right: 16px;
+    color: #627c8a;
+    display: inline-block;
+}
+
+.mc-panel-heading font {
+    color: #3095e5;
+    margin-right: 10px;
+}
+
+.mc-panel-heading a {
+    float: right;
+    background: url(../../../../src/js/mod/equipmentPop/images/expand.png);
+    width: 16px;
+    height: 17px;
+}
+
+.mc-panel-heading a.collapsed {
+    background: url(../../../../src/js/mod/equipmentPop/images/pack-up.png);
+}
+
+.device-tbody {
+    max-height: 460px;
+    overflow-y: auto;
+}
+
+@media screen and (max-height: 768px) {
+    .device-tbody {
+        max-height: 360px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .device-tbody {
+        /*max-height: 200px;*/
+    }
+}
+
+.table-biAnaly {
+    width: 100%;
+    max-height: 260px;
+    font-size: 12px;
+}
+
+.table-biAnaly thead {
+    background-color: #FFF;
+}
+
+.table-biAnaly thead tr {
+    height: 30px;
+}
+
+.table-biAnaly tbody {
+    background-color: #F5F5F5;
+}
+
+.table-biAnaly th,
+.table-biAnaly td {
+    padding-left: 10px;
+    line-height: 100%;
+    text-align: left;
+}
+
+.status-active {
+    color: #26ba30;
+}
+
+.status-hasJob {
+    color: #f502fe;
+}
+
+.status-free {
+    color: #64a3f1;
+}
+
+.status-error {
+    color: #e44c09;
+}
+
+.status-repair {
+    color: #e99839;
+}
+
+.table-biAnaly tbody tr:hover {
+    background-color: #3095e5;
+    color: white;
+}
+
+.device-error {
+    background-color: red;
+    color: white;
+}
+
+.table-biAnaly .device-error:hover {
+    background-color: red;
+    color: white;
+}
+
+.table-biAnaly .checkbox {
+    margin: 0;
+}
+
+.table-biAnaly .checkbox label {
+    line-height: 22px;
+}
+
+.active-panel {
+    display: block;
+}

@@ -1,0 +1,283 @@
+
+.j-wrapper {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    z-index: 1000;
+    opacity: 0.9;
+}
+.j-wrapper>div:nth-child(2) {
+    background-color: #fff;
+}
+.j-player .j-showTime {
+    position: absolute;
+    /*right: 20%;*/
+    /*bottom: 140px;*/
+    left: 70%;
+    /*width: 100px;*/
+    height: 30px;
+    padding: 4px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.j-player {
+    padding: 20px;
+    background-color: #fff;
+}
+.j-oc {
+    margin: 0 auto;
+    width: 30px;
+    height: 18px;
+    border-radius: 0 0 4px 4px;
+    background: #fff url('images/arrowUp.png') no-repeat center center;
+    transform: rotate(180deg);
+}
+.j-oc.fz {
+    transform: rotate(0deg);
+    border-radius: 4px 4px 0 0;
+}
+.j-date {
+    overflow: hidden;
+    position: relative;
+}
+.j-refresh {
+    position: absolute;
+    display: inline-block;
+    height: 18px;
+    width: 16px;
+    text-indent: -9999px;
+    left: 140px;
+    top: 8px;
+    background: url('./images/refresh.png') no-repeat center;
+    cursor: pointer;
+}
+.j-date>div {
+    position: relative;
+    left: 50%;
+    float: left;
+    clear: both;
+    height: 38px;
+}
+.j-date .btn {
+    width: 6em;
+}
+.j-date .lr {
+    padding: 0;
+    position: relative;
+    left: -50%;
+    overflow: hidden;
+}
+.j-date ul li {
+    list-style: none;
+    float: left;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+li.active {
+    color: #2893E8 !important;
+}
+.btn.active {
+    color: #fff !important;
+    background-color: #2893E8 !important;
+}
+
+.j-progressBar {
+    position: relative;
+    height: 4px;
+    background-color: #DBDBDB;
+}
+.j-progressBar>div {
+    position: absolute;
+    cursor: pointer;
+}
+.j-progressBar .preWorkingClass {
+    left: 10px;
+    top: -34px;
+}
+.j-progressBar .nexWorkingClass {
+    right: 10px;
+    top: -34px;
+}
+.j-progressBar .workingClass>p {
+    /*border: 1px solid blue;*/
+    margin-bottom: 4px;
+    padding: 0 2px;
+    background-color: #fff;
+}
+.j-progressBar>div:nth-child(1)>p {
+    float: left;
+    clear: left;
+}
+.j-progressBar>div:nth-child(1)>p:nth-child(2) {
+    margin-left: 20px;
+}
+.j-progressBar>div:nth-child(2)>p {
+    float: right;
+    clear: right;
+}
+.j-progressBar>div:nth-child(2)>p:nth-child(2) {
+    margin-right: 20px;
+}
+.j-progressBar>div>p:hover {
+    color: #6BB4EF;
+}
+p.active {
+    color: #6BB4EF;
+}
+.j-progressBar>div>p:nth-child(1){
+    margin-bottom: 6px;
+}
+.j-progressBar>div>p:nth-child(2){
+    border: 1px solid #DBDBDB;
+    height: 20px;
+}
+/*.j-progressBar>div:nth-child(2)>p:nth-child(2){
+    margin-left: 18px;
+}*/
+.bar {
+    /*border: 1px solid blue;*/
+    position: relative !important;
+    background-color: #B3B3B3;
+    margin: 0 52px;
+    /*margin-right: 50px;*/
+    height: 4px;
+    cursor: pointer;
+}
+.bar>p {
+    position: absolute;
+    height: 4px;
+    text-indent: -9999px;
+    margin: 0;
+    padding: 0;
+    width: 0;
+}
+.bar>p.already {
+    left: 0;
+    background-color: #2893E8;
+}
+.bar>p.future {
+    right: 0;
+    background-color: #DBDBDB;
+}
+.bar>div {
+    position: absolute;
+    top: -4px;
+    pointer-events: none;
+    z-index: 100;
+    /*border: 1px solid blue;*/
+}
+.bar>div:nth-child(1) {
+    left: 25%;
+}
+.bar>div:nth-child(2) {
+    left: 50%;
+}
+.bar>div:nth-child(3) {
+    left: 75%;
+}
+.bar>div>p:nth-child(1) {
+    width: 12px;
+    height: 12px;
+    text-indent: -9999px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 0 4px #666;
+    margin-bottom: 4px;
+    margin-left: -5px;
+}
+.bar>div>p:nth-child(2) {
+    position: relative;
+    left: -22px;
+    /*pointer-events: none;*/
+}
+
+
+.bar>span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    text-indent: -9999px;
+    border-radius: 6px;
+    box-shadow: 0 0 4px #000;
+    position: absolute;
+    left: -6px;
+    top: -4px;
+    z-index: 1000;
+    background: url(images/circleDot.png) no-repeat center center;
+}
+.bar tooltip {
+    position: fixed;
+    bottom: 120px;
+    background-color: #474747;
+    color: #fff;
+    padding: 0px 4px;
+    border-radius: 2px;
+    display: none;
+    z-index: 100;
+}
+
+
+.j-btn {
+    /*border: 1px solid blue;*/
+    overflow: hidden;
+    margin-top: 40px;
+    line-height: 30px;
+}
+.j-btn>div.l {
+    float: left;
+}
+.j-btn>div.l>div {
+    float: left;
+    margin-left: 10px;
+}
+.j-btn>div.r {
+    float: right;
+}
+
+li.disabled {
+    pointer-events: none;
+}
+
+/*工班切换提示*/
+.j-workingTip {
+    position: fixed;
+    top: 50%;
+    left: 50%;  
+    z-index: 2000;
+}
+.j-workingTip>div {
+    width: 366px;
+    height: 138px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-left: -183px;
+    margin-top: -69px;
+    padding: 20px;
+}
+.j-workingTip .j-close {
+    text-indent: -9999px;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: url(./images/close.png) no-repeat center center;
+    cursor: pointer;
+}
+.j-workingTip>div>p {
+    clear: both;
+    font-size: 14px;
+    line-height: 60px;
+    color: #6F7D86;
+}
+.j-workingTip>div>h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #000;
+}
+
+/*播放器隐藏*/
+.hidebottom {
+    height: 10px;
+}

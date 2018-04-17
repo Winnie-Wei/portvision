@@ -1,0 +1,944 @@
+.popup{
+	display: none;
+	position: fixed;    
+    z-index: 1100;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+/* #J_centerPop {
+	position: absolute;
+	left: 50%;
+	float: left;
+}*/
+/*.popup{
+	position: relative;
+	float: left;
+	left: -50%;
+    z-index: 1100;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+    width: 420px;
+}*/
+.jobAnimate {
+	position: relative;
+	height: 368px;
+	width: 418px;
+	overflow: hidden;
+}
+.jobAnimate>div {
+	position: absolute;
+	height: 368px;
+	/*width: 418px;*/
+	width: 538px;
+	left: -60px;
+}
+#J_centerPop .jobInfo {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	/*width: 172px;*/
+	/*height: 110px;*/
+	background-color: rgba(255, 255, 255, 0.7);
+	z-index: 10;
+	border-top-left-radius: 4px;
+}
+#J_centerPop .jobInfo ul {
+	margin: 0;
+	padding: 10px;
+	list-style: none;
+	font-size: 14px;
+}
+#J_centerPop .jobInfo li {
+	overflow: hidden;
+}
+ /*ONROAD作业动画*/
+.ONROAD .tree {
+	animation: ONROAD 3s linear infinite;
+	background: url(../../../js/mod/popup/images/ROAD/tree.png) no-repeat;
+	transform: rotate(-30deg); 
+}
+.ONROAD .car {
+	background: url(../../../js/mod/popup/images/ROAD/car.png) no-repeat 50% 120px;
+	transform: rotate(-30deg); 
+}
+.ONROAD .base {
+	background: url(../../../js/mod/popup/images/ROAD/base.png) no-repeat 0 -24px;
+}
+@keyframes ONROAD
+{
+	0%   {background-position: -536px 100px;}
+	100%  {background-position: -272px 100px;}
+}
+
+/*OUTYARD作业动画*/
+.OUTYARD .base {
+	background: url(../../../js/mod/popup/images/YARD/base.png) no-repeat 0 -34px;
+}
+.OUTYARD .gantrycrane {
+	background: url(../../../js/mod/popup/images/YARD/gantrycrane.png) no-repeat 80% 17%;
+	animation: OUTYARDMoveGan 5s linear infinite;
+	z-index: 10;
+}
+.OUTYARD .grabUp {
+	background: url(../../../js/mod/popup/images/YARD/grabUp.png) no-repeat 80% 23%;
+	animation: OUTYARDMoveGrabUp 5s linear infinite;
+	z-index: 10;
+}
+.OUTYARD .grabDown {
+	animation: OUTYARDMoveGrabDown 5s linear infinite;
+	z-index: 1;
+}
+.OUTYARD .guardrail {
+	background: url(../../../js/mod/popup/images/YARD/guardrail.png) no-repeat 76% 16%;
+	animation: OUTYARDMoveGuardrail 5s linear infinite;
+	z-index: 10;
+}
+.OUTYARD .car {
+	background: url(../../../js/mod/popup/images/YARD/emptyCar.png) no-repeat 88% 48%;
+	animation: OUTYARDMoveEmptyCar 5s linear infinite;
+	z-index: 1;
+}
+@keyframes OUTYARDMoveGan
+{
+	0%   {background-position: 80% 17%}
+	20%   {background-position: 80% 17%}
+	40%  {background-position: 50% 48%;}
+	100% {background-position: 50% 48%;}
+}
+@keyframes OUTYARDMoveGrabUp
+{
+	0%   {background-position: 80% 23%}
+	20%   {background-position: 80% 23%}
+	40%  {background-position: 55% 44%;}
+	60%  {background-position: 46% 36%;}
+	80% {background-position: 55% 44%;}
+	100% {background-position: 55% 44%;}
+}
+@keyframes OUTYARDMoveGrabDown
+{
+	0%   {}
+	20%   {}
+	40%  {}
+	59.9%  {background: none;}
+	60%  {background: url(../../../js/mod/popup/images/YARD/grabDown.png) no-repeat; background-position: 46% 40%; }
+	80%  {background-position: 55% 50%; }
+	100% {}
+}
+@keyframes OUTYARDMoveGuardrail
+{
+	0%   {background-position: 76% 16%}
+	20%   {background-position: 76% 16%}
+	40%  {background-position: 48% 40%;}
+	100% {background-position: 48% 40%;}
+}
+@keyframes OUTYARDMoveEmptyCar
+{
+	0%   {background-position: 88% 48%}
+	20% {background-position: 58% 62%;}
+	80% {background-position: 58% 62%;background-image: url(../../../js/mod/popup/images/YARD/emptyCar.png)}
+	80.1% {background-image: url(../../../js/mod/popup/images/YARD/fullCar.png)}
+	100% {background-position: 28% 87%; background-image: url(../../../js/mod/popup/images/YARD/fullCar.png)}
+}
+
+/*INYARD作业动画*/
+.INYARD .base {
+	background: url(../../../js/mod/popup/images/YARD/base.png) no-repeat 0 -34px;
+}
+.INYARD .gantrycrane {
+	background: url(../../../js/mod/popup/images/YARD/gantrycrane.png) no-repeat 80% 17%;
+	animation: INYARDMoveGan 5s linear infinite;
+	z-index: 10;
+}
+.INYARD .grabUp {
+	background: url(../../../js/mod/popup/images/YARD/grabUp.png) no-repeat 80% 23%;
+	animation: INYARDMoveGrabUp 5s linear infinite;
+	z-index: 10;
+}
+.INYARD .grabDown {
+	animation: INYARDMoveGrabDown 5s linear infinite;
+	z-index: 1;
+}
+.INYARD .guardrail {
+	background: url(../../../js/mod/popup/images/YARD/guardrail.png) no-repeat 76% 16%;
+	animation: INYARDMoveGuardrail 5s linear infinite;
+	z-index: 10;
+}
+.INYARD .car {
+	background: url(../../../js/mod/popup/images/YARD/fullCar.png) no-repeat 88% 48%;
+	animation: INYARDMoveFullCar 5s linear infinite;
+	z-index: 1;
+}
+@keyframes INYARDMoveGan
+{
+	0%   {background-position: 80% 17%}
+	20%   {background-position: 80% 17%}
+	40%  {background-position: 50% 48%;}
+	100% {background-position: 50% 48%;}
+}
+@keyframes INYARDMoveGrabUp
+{
+	0%   {background-position: 80% 23%}
+	20%   {background-position: 80% 23%}
+	40%  {background-position: 55% 44%;}
+	60%  {background-position: 46% 36%;}
+	80% {background-position: 55% 44%;}
+	100% {background-position: 55% 44%;}
+}
+@keyframes INYARDMoveGrabDown
+{
+	0%   {}
+	20%   {}
+	39.9%  {background: none; }
+	40%  {background: url(../../../js/mod/popup/images/YARD/grabDown.png) no-repeat;background-position: 55% 50%;}
+	60%  {background: url(../../../js/mod/popup/images/YARD/grabDown.png) no-repeat;background-position: 46% 40%;}
+	60.1%  {background: none; }
+	100% {}
+}
+@keyframes INYARDMoveGuardrail
+{
+	0%   {background-position: 76% 16%}
+	20%   {background-position: 76% 16%}
+	40%  {background-position: 48% 40%;}
+	100% {background-position: 48% 40%;}
+}
+@keyframes INYARDMoveFullCar
+{
+	0%   {background-position: 88% 48%}
+	20% {background-position: 58% 62%;}
+	39.9% {background-image: url(../../../js/mod/popup/images/YARD/fullCar.png)}
+	40% {background-image: url(../../../js/mod/popup/images/YARD/emptyCar.png);background-position: 58% 62%;}
+	80% {background-image: url(../../../js/mod/popup/images/YARD/emptyCar.png);background-position: 58% 62%;}
+	100% {background-position: 28% 87%; background-image: url(../../../js/mod/popup/images/YARD/emptyCar.png)}
+}
+
+
+/*OUTSHIP作业动画*/
+/* .OUTSHIP .base {
+	background: url(../../../js/mod/popup/images/SHIP/ship.png) no-repeat 30px,
+				url(../../../js/mod/popup/images/SHIP/base.png) no-repeat;
+	z-index: 0;
+}
+.OUTSHIP .gantrycrane {
+	background: url(../../../js/mod/popup/images/SHIP/gantrycrane.png) no-repeat 50% 0;
+	z-index: 10;
+}
+.OUTSHIP .gantryString {
+	background: url(../../../js/mod/popup/images/SHIP/gantryString.png) no-repeat 44% 14%;
+	z-index: 40;
+}
+.OUTSHIP .gantryDown {
+	background: url(../../../js/mod/popup/images/SHIP/gantryDown.png) no-repeat 54.8% 46.38%;
+	z-index: 1;
+}
+.OUTSHIP .gantryUp {
+	background: url(../../../js/mod/popup/images/SHIP/gantryUp.png) no-repeat 48.76% 22.2%;
+	z-index: 30;
+}
+.OUTSHIP .gantryShadow {
+	background: url(../../../js/mod/popup/images/SHIP/gantryShadow.png) no-repeat 57% 50%;
+	z-index: 0;
+}
+.OUTSHIP .car {
+	background: url(../../../js/mod/popup/images/SHIP/emptyCar.png) no-repeat 88% 40px;
+	z-index: 0;
+	animation: OUTSHIPMoveEmptyCar 4s linear infinite;
+}
+.OUTSHIP .grabUp {
+	background: url(../../../js/mod/popup/images/SHIP/grabUp.png) no-repeat 47% 26%;
+	z-index: 20;
+	animation: OUTSHIPMoveGrabUp 4s linear infinite;
+}
+.OUTSHIP .grabDownY {
+	z-index: 5;
+	animation: OUTSHIPMoveGrabDownY 4s linear infinite;
+}
+.OUTSHIP .grabDownN {
+	background: url(../../../js/mod/popup/images/SHIP/grabDownN.png) no-repeat 47% 34%;
+	z-index: 5;
+	animation: OUTSHIPMoveGrabDownN 4s linear infinite;
+}
+@keyframes OUTSHIPMoveEmptyCar
+{
+	0% {background-position: 88% 40px}
+	25% {background-position: 48% 50%}
+	75% {background-position: 48% 50%; background-image: url(../../../js/mod/popup/images/SHIP/emptyCar.png);}
+	75.1% {background-image: url(../../../js/mod/popup/images/SHIP/fullCar.png); background-position: 48% 50%}
+	100% {background-image: url(../../../js/mod/popup/images/SHIP/fullCar.png); background-position: 18% 76%;}
+}
+@keyframes OUTSHIPMoveGrabUp
+{
+	0% {background-position: 47% 26%;}
+	25% {background-position: 47% 26%;}
+	50% {background-position: 64% 40%}
+	75% {background-position: 47% 26%;}
+	100% {background-position: 47% 26%;}
+}
+@keyframes OUTSHIPMoveGrabDownY
+{
+	0% {background: none;}
+	49.9% {background: none;}
+	50% {background: url(../../../js/mod/popup/images/SHIP/grabDownY.png) no-repeat 63% 47%;}
+	74.9% {background: url(../../../js/mod/popup/images/SHIP/grabDownY.png) no-repeat 47% 34%;}
+	75% {background: none;}
+	100% {}
+}
+@keyframes OUTSHIPMoveGrabDownN
+{
+	0% {background-position: 47% 34%;}
+	25% {background-position: 47% 34%;}
+	49.9% {background: url(../../../js/mod/popup/images/SHIP/grabDownN.png) no-repeat 63% 47%;}
+	50% {background: none;}
+	74.9% {background: none;}
+	75% {background: url(../../../js/mod/popup/images/SHIP/grabDownN.png) no-repeat 47% 34%;}
+	100% {background-position: 47% 34%;}
+}
+
+
+INSHIP作业动画
+.INSHIP .base {
+	background: url(../../../js/mod/popup/images/SHIP/ship.png) no-repeat 30px,
+				url(../../../js/mod/popup/images/SHIP/base.png) no-repeat;
+	z-index: 0;
+}
+.INSHIP .gantrycrane {
+	background: url(../../../js/mod/popup/images/SHIP/gantrycrane.png) no-repeat 50% 0;
+	z-index: 10;
+}
+.INSHIP .gantryString {
+	background: url(../../../js/mod/popup/images/SHIP/gantryString.png) no-repeat 44% 14%;
+	z-index: 40;
+}
+.INSHIP .gantryDown {
+	background: url(../../../js/mod/popup/images/SHIP/gantryDown.png) no-repeat 54.8% 46.38%;
+	z-index: 1;
+}
+.INSHIP .gantryUp {
+	background: url(../../../js/mod/popup/images/SHIP/gantryUp.png) no-repeat 48.76% 22.2%;
+	z-index: 30;
+}
+.INSHIP .gantryShadow {
+	background: url(../../../js/mod/popup/images/SHIP/gantryShadow.png) no-repeat 57% 50%;
+	z-index: 0;
+}
+.INSHIP .car {
+	background: url(../../../js/mod/popup/images/SHIP/fullCar.png) no-repeat 88% 40px;
+	z-index: 0;
+	animation: INSHIPMoveFullCar 4s linear infinite;
+}
+.INSHIP .grabUp {
+	background: url(../../../js/mod/popup/images/SHIP/grabUp.png) no-repeat 47% 26%;
+	z-index: 20;
+	animation: INSHIPMoveGrabUp 4s linear infinite;
+}
+.INSHIP .grabDownY {
+	z-index: 5;
+	animation: INSHIPMoveGrabDownY 4s linear infinite;
+}
+.INSHIP .grabDownN {
+	background: url(../../../js/mod/popup/images/SHIP/grabDownN.png) no-repeat 47% 34%;
+	z-index: 5;
+	animation: INSHIPMoveGrabDownN 4s linear infinite;
+}
+@keyframes INSHIPMoveFullCar
+{
+	0% {background-position: 88% 40px}
+	24.9% {background-position: 48% 50%;background-image: url(../../../js/mod/popup/images/SHIP/fullCar.png);}
+	25% {background-position: 48% 50%; background-image: url(../../../js/mod/popup/images/SHIP/emptyCar.png);}
+	75% {background-position: 48% 50%; background-image: url(../../../js/mod/popup/images/SHIP/emptyCar.png);}
+	100% {background-image: url(../../../js/mod/popup/images/SHIP/emptyCar.png); background-position: 18% 76%;}
+}
+@keyframes INSHIPMoveGrabUp
+{
+	0% {background-position: 47% 26%;}
+	25% {background-position: 47% 26%;}
+	50% {background-position: 64% 40%}
+	75% {background-position: 47% 26%;}
+	100% {background-position: 47% 26%;}
+}
+@keyframes INSHIPMoveGrabDownY
+{
+	0% {background: none;}
+	24.9% {background: none;}
+	25% {background: url(../../../js/mod/popup/images/SHIP/grabDownY.png) no-repeat 47% 34%;}
+	49.9% {background: url(../../../js/mod/popup/images/SHIP/grabDownY.png) no-repeat 63% 47%;}
+	50% {background: none;}
+	100% {}
+}
+@keyframes INSHIPMoveGrabDownN
+{
+	0% {background-position: 47% 34%;}
+	24.9% {background: url(../../../js/mod/popup/images/SHIP/grabDownN.png) no-repeat 47% 34%;}
+	25% {background: none;}
+	49.9% {background: none;}
+	50% {background: url(../../../js/mod/popup/images/SHIP/grabDownN.png) no-repeat 63% 47%;}
+	75% {background-position: 47% 34%;}
+	100% {background-position: 47% 34%;}
+}
+
+INGATE动画
+.INGATE .base {
+	background: url(../../../js/mod/popup/images/GATE/inGate.png) no-repeat 40px -40px;
+	z-index: 0;
+}
+.INGATE .car {
+	background: url(../../../js/mod/popup/images/GATE/inCar.png) no-repeat 90% 10%;
+	z-index: 10;
+	animation: INGATEMoveCar 4s linear infinite;
+}
+@keyframes INGATEMoveCar
+{
+	0% {background-position: 90% 10%;}
+	33.3% {background: url(../../../js/mod/popup/images/GATE/inCar.png) no-repeat 67% 31%;}
+	66.4% {background: url(../../../js/mod/popup/images/GATE/inCar.png) no-repeat 67% 31%;}
+	66.5% {background: none;}
+	66.6% {background: url(../../../js/mod/popup/images/GATE/inCar.png) no-repeat 36% 58%;}
+	100% {background-position: 12% 79.5%;}
+}
+
+OUTGATE动画
+.OUTGATE .base {
+	background: url(../../../js/mod/popup/images/GATE/outGate.png) no-repeat 40px -40px;
+	z-index: 0;
+}
+.OUTGATE .car {
+	background: url(../../../js/mod/popup/images/GATE/outCar.png) no-repeat 10% 90%;
+	z-index: 10;
+	animation: OUTGATEMoveCar 4s linear infinite;
+}
+@keyframes OUTGATEMoveCar
+{
+	0% {background-position: 10% 90%;}
+	33.3% {background: url(../../../js/mod/popup/images/GATE/outCar.png) no-repeat 40% 64%;}
+	66.4% {background: url(../../../js/mod/popup/images/GATE/outCar.png) no-repeat 40% 64%;}
+	66.5% {background: none;}
+	66.6% {background: url(../../../js/mod/popup/images/GATE/outCar.png) no-repeat 70% 38%;}
+	100% {background-position: 90% 21%;}
+} */
+ 
+.popup.fixed-bottom{
+	top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+} 
+
+.popup.fixed-center{	
+    top: 10%;
+    left: 50%;
+    width: 420px;
+    margin-left: -210px;
+    border:1px solid #dbdbdb;
+    border-radius: 4px;
+}
+
+.popup.fixed-center.inline{
+	display: inline-block;
+	display: none;
+	margin-left: -420px;
+}
+
+.popup.fixed-center .pop-right{
+	display: none;
+}
+
+.popup.fixed-center.inline+.inline{	
+	margin-left: 20px;
+}
+.popup.fixed-center.inline.alone{
+	margin-left: -210px;
+}
+.popup .masker{
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.5;
+    -webkit-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    transition: opacity .15s linear;	
+}
+
+.popup .pop-content{
+	background: #fff;
+	width: 100%;
+	min-height: 170px;
+	/*max-height: 500px;*/
+	overflow: hidden;
+}
+
+.popup .pop-header{
+	color: #489ae3;
+	text-align: center;
+	font-size: 14px;
+	line-height: 34px;
+	height: 34px;
+	border-bottom:1px solid #dbdbdb;
+	background: #f5f5f5;
+	/*position: relative;*/
+}
+
+.popup .pop-title{
+	float: left;
+	padding: 0 20px;
+	position:absolute;
+}
+
+
+.pop-box {
+	float: right;
+	padding: 0 20px;
+	margin-right: 40px;
+}
+
+.pop-select {
+	padding: 0 5px;
+	margin: 0 10px;
+	width: 100px !important;
+	height: 24px;
+	color: #000;
+}
+.boatBay-switchs {
+	display: inline-block;
+	width: 30%;
+}
+.boatBay-switchs button {
+	display: inline-block;
+    color: #6D6D6D;
+    background-color: transparent;
+    width: 40%;
+    font-size: 13px;
+    margin: 0 5px;
+    border: 1px solid #A6A6A6;
+    border-radius: 5px;
+    height: 24px;
+    line-height: 22px;
+}
+.boatBay-switchs button.active {
+    background-color: #3095E5;
+    color: white;
+    border: 1px solid #3095E5;
+}
+.boatBay-switchs button:disabled{
+	/*border:1px solid #DDD;*/
+	background-color:#F5F5F5;
+	/*color:#ACA899;*/
+	cursor: not-allowed;
+}
+.boxs-pop {
+	position: absolute;
+	top: 20px;
+	background-color: #fff;
+	border: 1px solid #333;
+	border-radius: 5px;
+	box-shadow: 0 5px 15px rgba(56, 56, 56, 0.5);
+}
+.boxs-pop td{
+	border: 1px dashed #333;
+	font-size: 12px;
+	padding: 0px 5px;
+}
+
+.popup .pop-close{
+	color: #b7b7b7;
+	position: absolute;
+	right: 20px;
+	top: 0;
+	cursor: pointer;
+}
+
+.popup .pop-info{
+	padding: 20px 10px;
+	position: relative;
+	min-height: 134px;
+	overflow-y: auto;
+}
+
+.popup .pop-footer{
+	color: #489ae3;
+	text-align: center;
+	font-size: 14px;
+	line-height: 34px;
+	height: 34px;
+	background: #fff;
+	position: relative;
+}
+
+.popup .pop-footer.has-background{	
+	border-top:1px solid #dbdbdb;
+	border-bottom:1px solid #dbdbdb;
+	background: #f5f5f5;
+}
+
+.popup .pop-footer {
+	background-color: #F5F5F5;
+}
+.pop-footer .select-group{
+	margin-top:5px;
+}
+
+.pop-footer .select-short{
+	height:22px; 
+	line-height: 1em;
+	padding:0 2px;
+	border-radius: 2px;
+}
+
+.pop-footer select {
+	width: 45%;
+	color: #000;
+}
+/* 堆场详情-箱子信息 底部弹框 start */
+.popup .boxes-style{
+	float: left;
+	width: 100%;
+	display: none;
+	margin-bottom: 10px;
+}
+
+.popup .loading-img{
+	background: url('../../../images/loading-b.gif') center no-repeat;
+	width: 100%;
+    height: 50px;
+    margin-top: 25px;
+	display: none;
+}
+
+.popup .loading-active{
+	display: block;
+}
+
+.pop-info .boxes-active {
+	display: block;
+}
+
+.popup .boxes-legend{
+	float: right;
+	width:4%;
+}
+
+.boxes-style table td{
+	font-size: 12px;
+	width: 38px;
+	min-width: 38px;
+	height:16px;
+	line-height: 16px;
+	border:1px solid #dbdbdb;
+	text-align: center;
+	cursor: pointer;
+}
+
+/* .boxes-style .moveout {
+	background-image: url(../../../js/mod/popup/images/BOX/icon-out-boxshadow.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% !important;
+} */
+
+.no-box-place {
+    border: 0 !important;
+}
+
+.boxes-style .bay-number td{
+	cursor: default;
+}
+
+.boxes-style td.row-number,
+.boxes-style .bay-number td,
+.boxes-style .bay-number td.row-number{
+	border-color: #fff;
+	border-bottom: 0;
+}
+
+.boxes-style td.bay.txt{
+	height:30px;
+	line-height: 30px;
+}
+
+.boxes-style td.row-number{
+	border-right:1px solid #dbdbdb;
+}
+
+.boxes-legend table td{
+	font-size: 12px;
+	width: 38px;
+	height:12px;
+	line-height: 12px;
+	border-collapse: 0;
+	border:1px solid #dbdbdb;
+	text-align: center;
+}
+
+
+.boxes-legend td.txt{
+	border-color: #fff;
+}
+
+.check-bay {
+	border-right: 2px solid #3095E5 !important;
+	border-left: 2px solid #3095E5 !important;
+	box-shadow: 0 1px 1px rgba(48, 149, 229, .9) !important;
+}
+.check-bay-start{
+	border-top: 2px solid #3095E5 !important;
+}
+.check-bay-end {
+	border-bottom: 2px solid #3095E5 !important;
+}
+/* 堆场详情-箱子信息 底部弹框 end */
+
+
+
+/* 设备详情-详细信息 视图中央弹框 start */
+.pop-body .bay-detail{
+	padding: 20px 20px 0 20px;
+	/*height: 450px;*/
+	overflow-y: auto;
+}
+.bay-detail table .td-title{
+	 white-space:nowrap;
+}
+
+.bay-detail table td{
+	font-size: 14px;
+	width: 30px;
+	height:60px;
+	text-align: left;	
+	background: #fff;
+}
+
+.bay-detail table .bay{
+	padding: 0 31px;
+	border:1px dashed #dbdbdb;
+	color: #fff;
+	font-size: 12px;
+	position: relative;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+
+.bay-detail table .back-true{
+	background:none;
+	color:#000;
+	text-align: center;
+    font-size: 24px;
+    line-height: 30px;
+    height: 40px;
+}
+
+.bay-box{
+	cursor: pointer;
+}
+
+.bay-detail table .bay.active{
+	border: 1px solid #038fff;
+}
+
+.bay-detail table .bay.disabled{
+	background: #f5f5f5;
+}
+
+.bay-detail .bay span{
+	height:1em;
+	line-height: 1.1em;
+	padding:0 2px;
+	font-size: 12px;
+}
+.bay-detail .bay .pane-span{
+	text-align: right;
+	padding: 0.5em;
+}
+.bay-detail .bay .special-icon {
+	padding: 0.55em;
+	margin-left: 2px;
+}
+.bay-detail .bay .reefer {
+	position: absolute;
+    padding: 0.27em;
+    line-height: 0.55em;
+	height: 0.55em;
+	top: -1px;
+}
+.bay-detail .bay .special {
+	position: absolute;
+	left: -1px;
+	bottom: -1px;
+	border: 1px solid #000;
+}
+.bay-detail .bay .oog {
+	position: absolute;
+    padding: 0.27em;
+    line-height: 0.55em;
+    height: 0.55em;
+    bottom: -1px;
+}
+.bay-detail .bayTitle{
+	color: #3095e5;
+    width: 100%;
+    text-align: center;
+}
+
+.bay-detail .bay .top{
+	position: absolute;
+	top:2px;
+	left:0;
+	right: 2px;
+}
+
+.bay-detail .bay .middle{
+	right: 2px;
+	position: absolute;
+	top: 24px;
+	left:0;
+}
+
+.bay-detail .bay .middle span{
+	width: 50%;
+}
+
+.bay-detail .bay .bottom{
+	right: 2px;
+	position: absolute;
+	bottom:2px;
+	left:0;
+}
+
+.bay-detail .bay .icon{
+	width:100%;
+	position: absolute;
+	width:10px;
+	height:10px;
+}
+/* 船舶贝位弹框 */
+.boat-baypop .bay-detail {
+	max-height: 430px;
+}
+
+/* 箱子状态标识 */
+.bay-detail .ico-status{
+	border: 1px solid;
+	border-radius:10px;
+	top:4px;
+	right:2px;
+}
+
+.bay-detail .ico-status.ing{
+	background:#fff;
+	border-color:#fff;
+}
+
+.bay-detail .ico-status.tobe{
+	background:#e3b931;
+	border-color:#e3b931;
+}
+
+/* 出口箱标识 */
+/* .bay-detail .ico-export{
+
+} */
+
+/* 进口箱标识 */
+/* .bay-detail .ico-import{
+	
+} */
+
+/* 冷冻箱标识 */
+.bay-detail .ico-reefer{
+	border-radius:10px;
+	border:1px solid #8d9194;
+	background: #8d9194;
+	bottom:4px;
+	left:2px;
+}
+
+.bay-detail .row-number td{
+	height: 34px;
+	text-align: center;
+}
+
+/* 设备详情-详细信息 视图中央弹框 end */
+.equ-detail{
+	padding:15px 20px;
+	height: 368px;
+	overflow-y: auto;
+}
+#J_centerPop .popup:nth-child(2) .pop-footer{
+	height: 0;
+}
+.equ-detail>div{
+	margin:0;
+	clear: both;
+}
+
+.equ-detail .info-top{
+	padding:10px 0;
+}
+
+.equ-detail .info-top img{
+	width: 145px;
+	height: 85px;
+	border:1px solid #dbdbdb;
+	background: #f5f5f5 url('images/icon-box.png') center no-repeat;
+	float: left;
+}
+
+.info-top .inline-left,
+.info-top .inline-right{
+	display: inline-block;
+}
+
+.info-top .inline-left{	
+	float: left;
+	width: 50%;
+}
+
+.info-top .inline-right{	
+	float: right;
+	width: 50%;
+	text-align: left;
+}
+
+.info-top .inline-right p{
+	line-height: 1em;
+	margin-bottom:10px;
+}
+
+.equ-detail .info-list{
+	border-top: 1px dashed #dbdbdb;
+	padding-top:15px;
+}
+
+.equ-detail .info-list ul{
+	list-style:none;
+	padding: 0;
+	width: 100%;
+	float: left;
+}
+
+.equ-detail .info-list li{
+	width: 50%;
+	float: left;
+	line-height: 1em;
+	margin-bottom:15px;
+}
+.bay-pop{
+	/*bottom: 200px;*/
+	max-height: 42rem;
+}
+.bay-pop .pop-body{
+	padding: 0px;
+	overflow-y: auto;
+	position: relative;
+}
+.bay-pop .bay-detail{
+	padding: 0px 10px 0 10px;
+    /*height: auto;*/
+}
+.boat-baypop.fixed-center {
+	max-height: 50rem;
+	width: 590px;
+	margin-left: -300px;
+}
+
+.boat-baypop.fixed-center.inline {
+	margin-left: -590px;
+}
+    

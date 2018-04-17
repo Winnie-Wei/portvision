@@ -1,0 +1,161 @@
+$bg-baseUrl: '../../../../js/mod/popup/images/';
+$time: 3s !default;
+
+/* ONROAD作业动画 */
+$road: 'ROAD';
+.ON#{$road} {
+    .tree {
+        animation: ON#{$road} $time linear infinite;
+        background: url(#{$bg-baseUrl}#{$road}/tree.png) no-repeat;
+        transform: rotate(-30deg); 
+    }
+    .car {
+        background: url(#{$bg-baseUrl}#{$road}/car.png) no-repeat 50% 120px;
+        transform: rotate(-30deg); 
+    }
+    .base {
+        background: url(#{$bg-baseUrl}#{$road}/base.png) no-repeat 0 -24px;
+    }
+}
+@keyframes ON#{$road}
+{
+    0%   {background-position: -536px 100px;}
+    100%  {background-position: -272px 100px;}
+}
+
+$yard: 'YARD';
+$time: 5s;
+@mixin yard ($in-out: 'OUT') {
+    @keyframes #{$in-out}#{$yard}MoveGan
+    {
+        0%   {background-position: 80% 17%}
+        20%   {background-position: 80% 17%}
+        40%  {background-position: 50% 48%;}
+        100% {background-position: 50% 48%;}
+    }
+    @keyframes #{$in-out}#{$yard}MoveGuardrail
+    {
+        0%   {background-position: 76% 16%}
+        20%   {background-position: 76% 16%}
+        40%  {background-position: 48% 40%;}
+        100% {background-position: 48% 40%;}
+    }
+    @keyframes #{$in-out}#{$yard}MoveGrabUp
+    {
+        0%   {background-position: 80% 23%}
+        20%   {background-position: 80% 23%}
+        40%  {background-position: 55% 44%;}
+        60%  {background-position: 46% 36%;}
+        80% {background-position: 55% 44%;}
+        100% {background-position: 55% 44%;}
+    }
+    .base {
+        background: url(#{$bg-baseUrl}#{$yard}/base.png) no-repeat 0 -34px;
+    }
+    .gantrycrane {
+        background: url(#{$bg-baseUrl}#{$yard}/gantrycrane.png) no-repeat 80% 17%;
+        animation: OUT#{$yard}MoveGan $time linear infinite;
+        z-index: 10;
+    }
+    .grabUp {
+        background: url(#{$bg-baseUrl}#{$yard}/grabUp.png) no-repeat 80% 23%;
+        animation: OUT#{$yard}MoveGrabUp $time linear infinite;
+        z-index: 10;
+    }
+    .guardrail {
+        background: url(#{$bg-baseUrl}#{$yard}/guardrail.png) no-repeat 76% 16%;
+        animation: OUT#{$yard}MoveGuardrail $time linear infinite;
+        z-index: 10;
+    }
+}
+/* OUTYARD作业动画 */
+.OUT#{$yard} {
+    @include yard('OUT');
+    .grabDown {
+        animation: OUT#{$yard}MoveGrabDown $time linear infinite;
+        z-index: 1;
+    }
+    .car {
+        background: url(#{$bg-baseUrl}#{$yard}/emptyCar.png) no-repeat 88% 48%;
+        animation: OUT#{$yard}MoveEmptyCar $time linear infinite;
+        z-index: 1;
+    }
+}
+@keyframes OUT#{$yard}MoveGrabDown
+{
+    0%   {}
+    20%   {}
+    40%  {}
+    59.9%  {background: none;}
+    60%  {background: url(#{$bg-baseUrl}#{$yard}/grabDown.png) no-repeat; background-position: 46% 40%; }
+    80%  {background-position: 55% 50%; }
+    100% {}
+}
+@keyframes OUT#{$yard}MoveEmptyCar
+{
+    0%   {background-position: 88% 48%}
+    20% {background-position: 58% 62%;}
+    80% {background-position: 58% 62%;background-image: url(#{$bg-baseUrl}#{$yard}/emptyCar.png)}
+    80.1% {background-image: url(#{$bg-baseUrl}#{$yard}/fullCar.png)}
+    100% {background-position: 28% 87%; background-image: url(#{$bg-baseUrl}#{$yard}/fullCar.png)}
+}
+
+/* IN#{$yard}作业动画 */
+.IN#{$yard} {
+    @include yard('IN');
+    .grabDown {
+        animation: IN#{$yard}MoveGrabDown $time linear infinite;
+        z-index: 1;
+    }
+    .car {
+        background: url(#{$bg-baseUrl}#{$yard}/fullCar.png) no-repeat 88% 48%;
+        animation: IN#{$yard}MoveFullCar $time linear infinite;
+        z-index: 1;
+    }
+}
+@keyframes IN#{$yard}MoveGrabDown
+{
+    0%   {}
+    20%   {}
+    39.9%  {background: none; }
+    40%  {background: url(#{$bg-baseUrl}#{$yard}/grabDown.png) no-repeat;background-position: 55% 50%;}
+    60%  {background: url(#{$bg-baseUrl}#{$yard}/grabDown.png) no-repeat;background-position: 46% 40%;}
+    60.1%  {background: none; }
+    100% {}
+}
+@keyframes IN#{$yard}MoveFullCar
+{
+    0%   {background-position: 88% 48%}
+    20% {background-position: 58% 62%;}
+    39.9% {background-image: url(#{$bg-baseUrl}#{$yard}/fullCar.png)}
+    40% {background-image: url(#{$bg-baseUrl}#{$yard}/emptyCar.png);background-position: 58% 62%;}
+    80% {background-image: url(#{$bg-baseUrl}#{$yard}/emptyCar.png);background-position: 58% 62%;}
+    100% {background-position: 28% 87%; background-image: url(#{$bg-baseUrl}#{$yard}/emptyCar.png)}
+}
+
+@for $i from 1 through 3 {
+  .item-#{$i} { width: 2em * $i; }
+}
+
+$arr: ('normal': #ccc, 'warn': red, 'success': green);
+@each $item, $val in $arr {
+    .btn-#{$item} {
+        background-color: $val;
+    }
+}
+
+.btn-normal {
+    background-color: #ccc
+}
+.btn-warn {
+    background-color: red
+}
+.btn-success {
+    background-color: green
+}
+
+@for $i from 1 through 6 {
+  .table.over th:nth-child(#{$i}) {
+    width: 15%;
+  }  
+}

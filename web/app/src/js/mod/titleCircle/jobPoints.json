@@ -1,0 +1,10 @@
+[
+    {"type": "berth1", "fillColor": "#9eb8c3", "x": 371, "y": 111},
+    {"type": "berth2", "fillColor": "#9eb8c3", "x": 467, "y": 143},
+    {"type": "berth3", "fillColor": "#9eb8c3", "x": 577, "y": 185},
+    {"type": "berth4", "fillColor": "#9eb8c3", "x": 684, "y": 221},
+    {"type": "berth5", "fillColor": "#9eb8c3", "x": 771, "y": 252},
+    {"type": "berth6", "fillColor": "#9eb8c3", "x": 896, "y": 293},
+    {"type": "DLVR", "fillColor": "#9eb8c3", "x": 252, "y": 463},
+    {"type": "RECV", "fillColor": "#9eb8c3", "x": 514, "y": 488}
+]

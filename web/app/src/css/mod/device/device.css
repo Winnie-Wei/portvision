@@ -1,0 +1,420 @@
+﻿.device-profile{
+	overflow: hidden;
+	width:300px; 
+	height:110px;
+	background: #ffffff;
+	box-shadow: 2px 2px 5px #A7C7D9;	
+	box-sizing:border-box;
+}
+.device-profile-ico{
+	width: 23%;
+	height: 100%;
+	background:  url(images/icon-device-lorry.png) center center no-repeat #ffffff;
+	float: left;
+}
+.device-profile-close{
+	position: absolute;
+	right: 5px;
+	color: #b7b7b7;
+	cursor: pointer;
+	line-height: 32px;
+    font-size: 14px;
+}
+.device-profile-more{
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	color: #3095e5;
+	cursor: pointer;
+}
+.device-profile-trail, .device-profile-view{
+    position: absolute;
+    right: 5px;
+    bottom: 30px;
+    color: #3095e5;
+    cursor: pointer;
+}
+.device-profile-info{
+	width: 77%;
+	float: left;
+	padding: 5px 5px 5px 0;
+}
+
+.device-profile-info.gate{
+	padding-top:15px;
+}
+.device-profile-info p{/*多行溢出省略号处理 */
+	display: -webkit-box; 
+	-webkit-box-orient;
+	text-overflow: ellipsis;
+	overflow : hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	margin: 0px; 
+}
+.legend {
+    margin-top: 10px;
+}
+.legend span {
+    float: left;
+    height: 16px;
+}
+.legend .legendColor {
+    margin-right: 4px;
+    width: 16px;
+}
+.legend>div {
+    line-height: 16px;
+    height: 16px;
+}
+/* .status-1 .status{
+	color: #26ba30;
+}
+.status-2 .status{
+	color: #f502fe;
+}
+.status-3 .status{
+	color: #00aeff;
+}
+.status-4 .status{
+	color: #f32424;
+} */
+
+/*综合分析*/
+.deviceDetail .panel-body td:nth-child(even) {
+	color: #3095E5;
+}
+.deviceDetail .statusInfo {
+    height: 580px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+@media screen and (max-height: 768px){
+    .deviceDetail .statusInfo {
+        height: 270px;
+    }
+}
+
+.statusInfo {
+	padding: 10px;
+}
+.statusInfo .clearfix>p:last-child, .statusInfo .panel h2{
+	color: #3095E5;
+}
+.statusInfo .panel {
+    margin-bottom: 0;
+}
+.statusInfo .panel>div {
+	padding: 0 0 10px 0;
+}
+.statusInfo .panel>div:nth-child(odd) {
+	padding: 0 10px 0 0;
+}
+.statusInfo .panel>div>div {
+	background-color: #F5F5F5;
+	border: 1px solid #DBDBDB;
+	text-align: center;
+	border-radius: 4px;
+}
+
+/*停机信息*/
+.breakDown {
+    padding-left: 10px;
+    font-size: 12px;
+}
+.breakDown table thead {
+    font-size: 14px;
+}
+.breakDown table.over tbody {
+	display: block; 
+	/*height: 160px; */
+	overflow-y: auto;
+}
+.breakDown table td:nth-child(2) {
+    width: 86px;
+}
+
+.breakDown table.over thead, .breakDown table.over tbody tr {
+	display:table;
+	width:100%;
+	table-layout:fixed;
+}
+.breakDown table.over thead {
+	width: calc( 100% - 17px );
+}
+.breakDown tbody tr:nth-child(odd) {
+	background-color: #EFFAFF;
+}
+
+/*作业信息*/
+.deviceDetail .jobInfo {
+	height: 580px;
+	overflow-y: auto;
+}
+@media screen and (max-height: 768px){
+    .deviceDetail .jobInfo {
+        height: 270px;
+    }
+}
+
+/* gr css ======================================================== */
+.deviceDetail-popup{
+    position: absolute;
+    /*width: 366px;*/
+    width: 410px;
+    right: 20px;
+    /* min-height: 535px; */
+    top: 70px;
+    bottom: 0px;
+    font-size: 14px;
+}
+.deviceDetail-popup .table td {
+	border: 0;
+    padding: 7px 5px 7px 10px;
+}
+.deviceDetail-popup .table .noDataTip {
+    padding: 30px 0;
+    background-color: #fff;
+}
+.deviceDetail-popup .table .noDataTip td{
+    font-size: 14px;
+}
+.deviceDetail-popup .panel-body{
+    padding: 0;
+	/*padding: 10px;*/
+    padding: 3px 0;
+	position: relative;
+    z-index: 100;
+}
+
+.deviceDetail-popup .panel-loading{
+	padding: 60px;
+    height: 100px;
+    background: #fff;
+}
+
+.deviceDetail-popup .panel-body>p{
+    margin: 0 0 0.6em;
+}
+.deviceDetail-popup .device-bottom{
+	position: absolute;
+    width: 100%;
+    bottom: 0px;
+    top: 0px;
+    padding-top: 268px;
+}
+/*.tab-content {
+	height: 100%;
+    overflow-y: auto;
+	overflow-x: hidden;
+}*/
+.device-info-bottom>.nav-tabs>li.active>a{
+	/*background-color: #f5f5f5;*/
+}
+.deviceDetail-popup .panel-heading {
+	font-size: 14px;
+	position: relative;
+    z-index: 100;
+    padding: 6px 10px;
+}
+.deviceDetail-popup .panel-title {
+	color: #3095e5;
+	font-size: 14px;
+	float: left;
+	line-height: 27px;
+}
+.deviceDetail-popup .panel-heading>div {
+	float: right;
+	line-height: 27px;
+}
+.deviceDetail-popup .panel-heading>div>p {
+	float: left;
+	margin: 0;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.deviceDetail-popup  .nav>li>a:focus, .deviceDetail-popup  .nav>li>a:hover, .deviceDetail-popup  .nav>li.active>a  {
+	background: none !important;
+	cursor: pointer;
+}
+.deviceDetail-popup .j-close{
+    right: 5px;
+    position: absolute;
+    width: 30px;
+    font-size: 14px;
+}
+.warnList .j-close {
+	position: static;
+	font-size: 14px;
+	cursor: pointer;
+}
+.class-noData{
+	padding:10px;
+}
+.lable-table>tbody>tr>td{
+	border: 0px;
+	padding: 2px;
+}
+.lollipop-group{
+	/*margin: 30px 0 0 0;*/
+	padding: 0;
+	list-style: none;
+	position: relative;
+}
+.lollipop-group span{
+	display: block;
+}
+.lollipop-group > li {
+    position: relative;
+    padding: 5px 0;
+}
+.lollipop-group > li .cbp_tmtime {
+	display: block;
+	width: 35%;
+	padding-left: 16px;	
+	padding-right: 30px;
+	position: absolute;
+    top: 10px;
+}
+.lollipop-group > li .cbp_tmlabel {
+	margin: 0 0 0 33%;
+	position: relative;
+    top: 6px;
+}
+.lollipop-group > li .cbp_tmicon {
+	width: 16px;
+    height: 16px;
+    position: absolute;
+    background: #46a4da;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    left: 28.68%;
+    top: 0;
+}
+.lollipop-group li:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 2px;
+	background: #dbdbdb;
+	left: 33%;
+	margin-left: -10px;
+}
+.lollipop-group > li:nth-child(odd) .cbp_tmlabel:after {
+	border-right-color: #6cbfee;
+}
+
+
+/*    */
+#J_warnList .warnList{
+    position: absolute;
+    width: 470px;
+    right: 20px;
+    min-height: 535px;
+    top: 0px;
+    bottom: 0px;
+    margin: 0;
+    left: 60px;
+    font-size: 12px; 
+}
+#J_warnList table.over tbody {
+	display:block;
+	max-height: 350px;
+	overflow-y:auto;
+}
+.historyWarnCount {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+.historyWarnCount li {
+	float: left;
+	list-style: none;
+	width: 24.5%;
+	padding: 8px;
+}
+#J_warnList table.over thead, #J_warnList table.over tbody tr {
+	display:table;
+	width:100%;
+	table-layout:fixed;
+}
+.noData p {
+	margin-top: 20px !important;
+}
+
+#J_warnList table.over thead {
+	width: calc( 100% - 1em )
+}
+#J_warnList .table tbody tr:nth-child(odd) {
+    background-color: #EFFAFF;
+}
+#J_warnList .table tbody tr:first-child td {
+    border: none;
+}
+#J_warnList .table tbody td p {
+    margin: 0px;
+}
+#J_deviceDetail .deviceDetail-popup .pop-body {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    top: -48px;
+    padding-top: 48px;
+}
+#J_deviceDetail .deviceDetail-popup .pop-body .panel-body span{
+	color: #3095e5;
+	float: right;
+}
+.device-info-bottom {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-left: 0;
+    border-right: 0;
+    background-color: #f5f5f5;
+}
+.nav-tabs {
+	/*border: 1px solid #ccc;
+	border-left: 0;
+	border-right: 0;*/
+	/*padding: 0 20px;*/
+	/*background-color: #F5F5F5;*/
+	position: relative;
+    left: 50%;
+    float: left;
+    border: 0;
+    z-index: 100;
+}
+.nav-tabs>li {
+	margin-bottom: 0;
+    position: relative;
+    left: -50%;
+    font-size: 14px;
+	/*width: 33.3%;*/
+}
+/*.nav-tabs>li>a:hover {
+    background: #fff !important;
+}*/
+.nav-tabs>li:not(:last-child) {
+    /*margin-right: 24%;*/
+	/*margin-right: 27%;*/
+    margin-right: 90px;
+}
+.nav-tabs>li>a {
+	border: 0 !important;
+	padding: 10px 0 4px 0;
+	margin: 0;
+	margin-bottom: 2px;
+	color: #9093A2;
+}
+.nav-tabs>li.active>a {
+	border-bottom: 2px solid #3095e5 !important;
+	color: #3095e5 !important;
+}
+#J_deviceDetail a.font-blue {
+	text-decoration: underline;
+	cursor: pointer;
+}
+

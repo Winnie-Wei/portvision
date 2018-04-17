@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>船舶信息</title>
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <!-- <link rel="stylesheet" href="../../src/css/main.css"> -->
+    <link rel="stylesheet" href="../../src/css/lib/bootstrap_3.3.6.min.css">
+    <link rel="stylesheet" href="../../src/css/mod/popup/index.css">
+    <link rel="stylesheet" href="../../src/css/mod/page/boatInfo.css">
+</head>
+
+<body class="boat-info">
+    <div class="content row">
+        <div class="clearfix heading">
+            <h3 class="pull-left nomgtop">船舶信息</h3>
+            <button class="btn btn-default pull-right go-back" type="button">
+                <a href="/portvision/web/app/views/monitor/index.html">返回</a>
+            </button>
+        </div>
+        <div class="boat-info-body all-height">
+            <div class="body-bg all-height clearfix">
+                <div class="col-md-6 col-sm-6">
+                    <div class="boat-basic-info col-md-12 col-sm-12 mc-col-padding ">
+                        <h4 class="boat-panel-title">基本信息</h4>
+                        <table class="table table-bordered boat-basic-content">
+                            <tbody>
+                                <tr>
+                                    <td>船名航次代码</td>
+                                    <td class="vessel-code"></td>
+                                    <td>靠泊方向</td>
+                                    <td class="vessel-dirc"></td>
+                                </tr>
+                                <tr>
+                                    <td>泊位</td>
+                                    <td class="vessel-breth"></td>
+                                    <td>航线</td>
+                                    <td class="voyava"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-md-4 col-sm-4 mc-col-padding boat-status">
+                        <h4 class="boat-panel-title">船舶状态</h4>
+                        <div id="J_boatStatus"></div>
+                    </div>
+                    <div class="col-md-8 col-sm-8 mc-col-padding boat-boxInfo">
+                        <h4 class="boat-panel-title">箱信息</h4>
+                        <div class="indicator-panel col-md-12 col-sm-12 mc-col-padding ">
+                            <div class="indicator-item col-md-3 col-sm-3 mc-col-padding ">
+                                <p class="indicator-value i-ctn">0</p>
+                                <p class="indicaotr-desc">进口箱量</p>
+                            </div>
+                            <div class="indicator-item col-md-3 col-sm-3 mc-col-padding ">
+                                <p class="indicator-value t-ctn">0</p>
+                                <p class="indicaotr-desc">国际中转箱</p>
+                            </div>
+                            <div class="indicator-item col-md-3 col-sm-3 mc-col-padding ">
+                                <p class="indicator-value d-ctn">0</p>
+                                <p class="indicaotr-desc">国内中转箱</p>
+                            </div>
+                            <div class="indicator-item col-md-3 col-sm-3 mc-col-padding ">
+                                <p class="indicator-value s-ctn">0</p>
+                                <p class="indicaotr-desc">留船箱量</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="boat-realtime col-md-12 col-sm-12 mc-col-padding ">
+                        <h4 class="boat-panel-title">实时作业信息</h4>
+                        <table class="table table-bordered boat-realtime-content">
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-12 boat-view-header clearfix">
+                    <div id="J_taskStatus" class="pull-right" data-toggle="modal" data-target="#task-status-modal">分贝作业情况</div>
+                    <div class="pop-select-box pull-right">
+                        <select class="pop-select">
+                            <option value="now">现在</option>
+                            <option value="past">过去</option>
+                            <option value="future">将来</option>
+                            <option value="strowage">配载</option>
+                            <option value="prestrowage">预配</option>
+                        </select>
+                        <select class="pop-select" id="box-info-type" value="tower">
+                            <option value="tower">层高</option>
+                            <option value="box">箱主</option>
+                            <option value="size">尺寸</option>
+                            <option value="port">卸货港</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-12 boat-view">
+                    <div class="pop-info clearfix">
+                        <div class="loading-img"></div>
+                        <div class="boxes-style boxes-info" data-id="{{>deviceData.STA_VESSEL_REFERENCE}}">
+                        </div>
+                        <div class="boxes-style hboxes-info" data-id="{{>deviceData.STA_VESSEL_REFERENCE}}">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 分杆作业情况模态框 -->
+    <div class="modal fade" id="task-status-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header high-level">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="gridSystemModalLabel">分贝作业情况</h4>
+                </div>
+                <div class="modal-body">
+                    <div id="J_taskBarChart"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="J_centerPop" class="hide"></div>
+
+    <script src="../../src/js/lib/jquery_2.2.4.min.js"></script>
+    <script src="../../src/js/lib/bootstrap_3.3.6.min.js"></script>
+    <script src="../../src/js/plugin/underscore/underscore.1.8.3.min.js"></script>
+    <script src="../../src/js/lib/esl.js"></script>
+    <script src="../../src/js/config.js"></script>
+    <script src="../../src/js/controllers/boat/boatInfo.js"></script>
+</body>
+
+</html>

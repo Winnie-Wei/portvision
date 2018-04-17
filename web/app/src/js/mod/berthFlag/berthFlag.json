@@ -1,0 +1,8 @@
+[
+    {"x":403,"y":93,"rotation":-0.35,"jobStatus":1,"berthTitle":"泊位1","from":0, "to":330},
+    {"x":494,"y":123,"rotation":-0.35,"jobStatus":1,"berthTitle":"泊位2","from":330, "to":630},
+    {"x":601,"y":160,"rotation":-0.35,"jobStatus":1,"berthTitle":"泊位3","from":630, "to":930},
+    {"x":705,"y":195,"rotation":-0.35,"jobStatus":1,"berthTitle":"泊位4","from":930, "to":1315},
+    {"x":804,"y":231,"rotation":-0.35,"jobStatus":1,"berthTitle":"泊位5","from":1315, "to":1730},
+    {"x":907,"y":267,"rotation":-0.35,"jobStatus":1,"berthTitle":"泊位6","from":1730, "to":2030}
+]

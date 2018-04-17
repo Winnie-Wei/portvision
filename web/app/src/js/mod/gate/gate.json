@@ -1,0 +1,56 @@
+[
+    {
+        "fillColor": "#8ac9f4",
+        "strokeColor": "#ffffff",
+        "textColor": "#6c6d6e",
+        "vertices": [
+        {
+            "x": 478,
+            "y": 474
+        },
+        {
+            "x": 516,
+            "y": 486
+        },
+        {
+            "x": 512,
+            "y": 498
+        },
+        {
+            "x": 475,
+            "y": 487
+        }],
+        "scaleRatio": 1,
+        "workStatus":"on",
+        "text": "闸口1",
+        "gateType":"进闸口",
+        "workData":105
+    },
+    {
+        "fillColor": "#db5e5e",
+        "strokeColor": "#ffffff",
+        "textColor": "#6c6d6e",
+        "vertices": [
+        {
+            "x": 216,
+            "y": 445
+        },
+        {
+            "x": 260,
+            "y": 458
+        },
+        {
+            "x": 256,
+            "y": 471
+        },
+        {
+            "x": 211,
+            "y": 460
+        }],
+        "scaleRatio": 1,
+        "workStatus":"off",
+        "text": "闸口2",
+        "gateType":"出闸口",
+        "workData":41
+    }
+]

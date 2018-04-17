@@ -1,0 +1,308 @@
+@charset "UTF-8";
+/* ONROAD作业动画 */
+.ONROAD .tree {
+  animation: ONROAD 3s linear infinite;
+  background: url(../../../../js/mod/popup/images/ROAD/tree.png) no-repeat;
+  transform: rotate(-30deg);
+}
+.ONROAD .car {
+  background: url(../../../../js/mod/popup/images/ROAD/car.png) no-repeat 50% 120px;
+  transform: rotate(-30deg);
+}
+.ONROAD .base {
+  background: url(../../../../js/mod/popup/images/ROAD/base.png) no-repeat 0 -24px;
+}
+
+@keyframes ONROAD {
+  0% {
+    background-position: -536px 100px;
+  }
+  100% {
+    background-position: -272px 100px;
+  }
+}
+/* OUTYARD作业动画 */
+@keyframes OUTYARDMoveGan {
+  0% {
+    background-position: 80% 17%;
+  }
+  20% {
+    background-position: 80% 17%;
+  }
+  40% {
+    background-position: 50% 48%;
+  }
+  100% {
+    background-position: 50% 48%;
+  }
+}
+@keyframes OUTYARDMoveGuardrail {
+  0% {
+    background-position: 76% 16%;
+  }
+  20% {
+    background-position: 76% 16%;
+  }
+  40% {
+    background-position: 48% 40%;
+  }
+  100% {
+    background-position: 48% 40%;
+  }
+}
+@keyframes OUTYARDMoveGrabUp {
+  0% {
+    background-position: 80% 23%;
+  }
+  20% {
+    background-position: 80% 23%;
+  }
+  40% {
+    background-position: 55% 44%;
+  }
+  60% {
+    background-position: 46% 36%;
+  }
+  80% {
+    background-position: 55% 44%;
+  }
+  100% {
+    background-position: 55% 44%;
+  }
+}
+.OUTYARD .base {
+  background: url(../../../../js/mod/popup/images/YARD/base.png) no-repeat 0 -34px;
+}
+.OUTYARD .gantrycrane {
+  background: url(../../../../js/mod/popup/images/YARD/gantrycrane.png) no-repeat 80% 17%;
+  animation: OUTYARDMoveGan 5s linear infinite;
+  z-index: 10;
+}
+.OUTYARD .grabUp {
+  background: url(../../../../js/mod/popup/images/YARD/grabUp.png) no-repeat 80% 23%;
+  animation: OUTYARDMoveGrabUp 5s linear infinite;
+  z-index: 10;
+}
+.OUTYARD .guardrail {
+  background: url(../../../../js/mod/popup/images/YARD/guardrail.png) no-repeat 76% 16%;
+  animation: OUTYARDMoveGuardrail 5s linear infinite;
+  z-index: 10;
+}
+.OUTYARD .grabDown {
+  animation: OUTYARDMoveGrabDown 5s linear infinite;
+  z-index: 1;
+}
+.OUTYARD .car {
+  background: url(../../../../js/mod/popup/images/YARD/emptyCar.png) no-repeat 88% 48%;
+  animation: OUTYARDMoveEmptyCar 5s linear infinite;
+  z-index: 1;
+}
+
+@keyframes OUTYARDMoveGrabDown {
+  59.9% {
+    background: none;
+  }
+  60% {
+    background: url(../../../../js/mod/popup/images/YARD/grabDown.png) no-repeat;
+    background-position: 46% 40%;
+  }
+  80% {
+    background-position: 55% 50%;
+  }
+}
+@keyframes OUTYARDMoveEmptyCar {
+  0% {
+    background-position: 88% 48%;
+  }
+  20% {
+    background-position: 58% 62%;
+  }
+  80% {
+    background-position: 58% 62%;
+    background-image: url(../../../../js/mod/popup/images/YARD/emptyCar.png);
+  }
+  80.1% {
+    background-image: url(../../../../js/mod/popup/images/YARD/fullCar.png);
+  }
+  100% {
+    background-position: 28% 87%;
+    background-image: url(../../../../js/mod/popup/images/YARD/fullCar.png);
+  }
+}
+/* INYARD作业动画 */
+@keyframes INYARDMoveGan {
+  0% {
+    background-position: 80% 17%;
+  }
+  20% {
+    background-position: 80% 17%;
+  }
+  40% {
+    background-position: 50% 48%;
+  }
+  100% {
+    background-position: 50% 48%;
+  }
+}
+@keyframes INYARDMoveGuardrail {
+  0% {
+    background-position: 76% 16%;
+  }
+  20% {
+    background-position: 76% 16%;
+  }
+  40% {
+    background-position: 48% 40%;
+  }
+  100% {
+    background-position: 48% 40%;
+  }
+}
+@keyframes INYARDMoveGrabUp {
+  0% {
+    background-position: 80% 23%;
+  }
+  20% {
+    background-position: 80% 23%;
+  }
+  40% {
+    background-position: 55% 44%;
+  }
+  60% {
+    background-position: 46% 36%;
+  }
+  80% {
+    background-position: 55% 44%;
+  }
+  100% {
+    background-position: 55% 44%;
+  }
+}
+.INYARD .base {
+  background: url(../../../../js/mod/popup/images/YARD/base.png) no-repeat 0 -34px;
+}
+.INYARD .gantrycrane {
+  background: url(../../../../js/mod/popup/images/YARD/gantrycrane.png) no-repeat 80% 17%;
+  animation: OUTYARDMoveGan 5s linear infinite;
+  z-index: 10;
+}
+.INYARD .grabUp {
+  background: url(../../../../js/mod/popup/images/YARD/grabUp.png) no-repeat 80% 23%;
+  animation: OUTYARDMoveGrabUp 5s linear infinite;
+  z-index: 10;
+}
+.INYARD .guardrail {
+  background: url(../../../../js/mod/popup/images/YARD/guardrail.png) no-repeat 76% 16%;
+  animation: OUTYARDMoveGuardrail 5s linear infinite;
+  z-index: 10;
+}
+.INYARD .grabDown {
+  animation: INYARDMoveGrabDown 5s linear infinite;
+  z-index: 1;
+}
+.INYARD .car {
+  background: url(../../../../js/mod/popup/images/YARD/fullCar.png) no-repeat 88% 48%;
+  animation: INYARDMoveFullCar 5s linear infinite;
+  z-index: 1;
+}
+
+@keyframes INYARDMoveGrabDown {
+  39.9% {
+    background: none;
+  }
+  40% {
+    background: url(../../../../js/mod/popup/images/YARD/grabDown.png) no-repeat;
+    background-position: 55% 50%;
+  }
+  60% {
+    background: url(../../../../js/mod/popup/images/YARD/grabDown.png) no-repeat;
+    background-position: 46% 40%;
+  }
+  60.1% {
+    background: none;
+  }
+}
+@keyframes INYARDMoveFullCar {
+  0% {
+    background-position: 88% 48%;
+  }
+  20% {
+    background-position: 58% 62%;
+  }
+  39.9% {
+    background-image: url(../../../../js/mod/popup/images/YARD/fullCar.png);
+  }
+  40% {
+    background-image: url(../../../../js/mod/popup/images/YARD/emptyCar.png);
+    background-position: 58% 62%;
+  }
+  80% {
+    background-image: url(../../../../js/mod/popup/images/YARD/emptyCar.png);
+    background-position: 58% 62%;
+  }
+  100% {
+    background-position: 28% 87%;
+    background-image: url(../../../../js/mod/popup/images/YARD/emptyCar.png);
+  }
+}
+.item-1 {
+  width: 2em;
+}
+
+.item-2 {
+  width: 4em;
+}
+
+.item-3 {
+  width: 6em;
+}
+
+.btn-normal {
+  background-color: #ccc;
+}
+
+.btn-warn {
+  background-color: red;
+}
+
+.btn-success {
+  background-color: green;
+}
+
+.btn-normal {
+  background-color: #ccc;
+}
+
+.btn-warn {
+  background-color: red;
+}
+
+.btn-success {
+  background-color: green;
+}
+
+.table.over th:nth-child(1) {
+  width: 15%;
+}
+
+.table.over th:nth-child(2) {
+  width: 15%;
+}
+
+.table.over th:nth-child(3) {
+  width: 15%;
+}
+
+.table.over th:nth-child(4) {
+  width: 15%;
+}
+
+.table.over th:nth-child(5) {
+  width: 15%;
+}
+
+.table.over th:nth-child(6) {
+  width: 15%;
+}
+
+/*# sourceMappingURL=jobAnimator.css.map */

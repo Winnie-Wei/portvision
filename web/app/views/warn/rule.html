@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<title>港口可视化平台</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1 minimum-scale=1" />
+	<link rel="shortcut icon" href="../../favicon.ico">
+	<link rel="stylesheet" href="../../src/css/main.css">
+	<link rel="stylesheet" href="../../src/css/lib/bootstrap_3.3.6.min.css">
+	<link rel="stylesheet" href="../../src/css/mod/page/warn.css">
+	<link rel="stylesheet" href="../../src/css/mod/page/rule.css">
+</head>
+
+<body class="rule-page">
+	<div class="content">
+		<div class="rule-header clearfix">
+			<h3 class="rule-title">告警规则</h3>
+			<!-- <span class="title">告警规则</span> -->
+			<button class="btn btn-default pull-right go-back" type="button"><a href="/portvision/web/app/views/monitor/index.html">返回</a></button>
+		</div>
+		<div class="rule-body">
+			<div class="rule-list">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+					<li role="presentation" class="active"><a href="#home" aria-controls="configuration" role="tab" data-toggle="tab">告警规则配置</a></li>
+					<li role="presentation"><a href="#profile" aria-controls="resources" role="tab" data-toggle="tab">告警资源管理</a></li>
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content clearfix">
+					<div role="tabpanel" class="tab-pane active" id="configuration">
+						<div class="rule-option clearfix">
+							<button type="button" class="btn btn-primary rule-new pull-right j-newRule" data-toggle="modal" data-target=".rule-modal"></button>
+							<!-- <div class="rule-new pull-right j-newRule">新增</div> -->
+							<div class="rule-search col-lg-2 pull-right">
+								<div class="input-group">
+      								<input type="text" class="form-control j-searchInput" placeholder="请输入规则名称关键字">
+  									<span class="input-group-btn">
+										<button class="btn btn-default j-search" type="button">搜索</button>
+									</span>
+								</div>
+							</div>
+						</div>
+						<!-- rule table -->
+						<div class="rule-list-title">
+							<table>
+								<colgroup>
+	    							<col name="rule-list-col-1" width="8.7%">
+	    							<col name="rule-list-col-2" width="13.6%">
+	    							<col name="rule-list-col-3" width="7.6%">
+	    							<col name="rule-list-col-4" width="7.6%">
+	    							<col name="rule-list-col-5" width="22.7%">
+	    							<col name="rule-list-col-6" width="13.3%">
+	    							<col name="rule-list-col-7" width="16.9%">
+	    							<col name="rule-list-col-8" width="9.4%">
+	    							<col name="mc-gutter" width="15">
+	    						</colgroup>
+								<thead>
+									<tr>
+										<th class="rule-list-col-1">规则编号</th>
+										<th class="rule-list-col-2">规则名称</th>
+										<th class="rule-list-col-3">规则类型</th>
+										<th class="rule-list-col-4">告警级别</th>
+										<th class="rule-list-col-5">规则描述</th>
+										<th class="rule-list-col-6">告警对象</th>
+										<th class="rule-list-col-7">创建时间</th>
+										<th class="rule-list-col-8">操作</th>
+										<!-- <th class="mc-gutter"></th> -->
+									</tr>
+								</thead>
+							</table>
+						</div>
+						<div class="rule-list-box" id="J_ruleList"></div>
+					</div>
+					<div class="pull-right page mgtop rule-pagen"></div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- 新增规则模态框 -->
+	<div class="modal fade rule-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header high-level">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="gridSystemModalLabel">新增告警规则</h4>
+				</div>
+				<div class="modal-body">
+				</div>
+				<div class="modal-footer high-level">
+					<button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+					<button type="button" class="btn btn-primary j-addRuleBtn">确定</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 预览规则模态框 -->
+	<div class="modal fade preview-modal" id="previewModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header high-level">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">查看告警规则</h4>
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="newrule-setting" id="J_previewContent">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 删除模态框 -->
+	<div class="modal fade delete-preview" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+		<div class="modal-dialog modal-sm" role="document">
+			<div class="modal-content">
+				<div class="modal-body delete-modal-body">
+					<div class="row">
+						<div><span>删除确认</span></div>
+						<div class="delete-message"><span>确定删除此条告警规则吗？</span></div>
+						<div class="modal-footer high-level">
+							<button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+							<button type="button" class="btn btn-primary j-delete">确定</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="../../src/js/lib/jquery_2.2.4.min.js"></script>
+    <script src="../../src/js/lib/bootstrap_3.3.6.min.js"></script>
+    <script src="../../src/js/plugin/underscore/underscore.1.8.3.min.js"></script>
+    <script src="../../src/js/lib/esl.js"></script>
+    <script src="../../src/js/config.js"></script>
+    <script src="../../src/js/plugin/jqwidgets/demos.js"></script>
+    <script src="../../src/js/plugin/jqwidgets/jqxcore.js"></script>
+    <script src="../../src/js/plugin/jqwidgets/jqxdata.js"></script>
+    <script src="../../src/js/plugin/jqwidgets/jqxbuttons.js"></script>
+    <script src="../../src/js/plugin/jqwidgets/jqxScrollbar.js"></script>
+    <script src="../../src/js/plugin/jqwidgets/jqxpanel.js"></script>
+    <script src="../../src/js/plugin/jqwidgets/jqxtree.js"></script>
+    <script src="../../src/js/controllers/warn/rule.js"></script>
+</body>
+</html>

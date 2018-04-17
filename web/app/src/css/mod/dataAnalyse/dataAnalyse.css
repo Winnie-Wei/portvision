@@ -1,0 +1,109 @@
+.dataAnalyse-item {
+    /*position: relative;*/
+}
+.j-dataAnalyse .tab-content {
+    overflow: visible;
+}
+.j-dataAnalyse .nav-tabs>li:not(.active)>a {
+    border-bottom: 1px solid #ccc !important;
+    height: 40px;
+}
+.j-dataAnalyse .nav-tabs>li>a {
+    width: 170px;
+}
+.j-dataAnalyse .nav-tabs>li {
+    margin-right: 0 !important;
+}
+.j-dataAnalyse .tab-content ul {
+    color: #798194;
+    list-style: none;
+    z-index: 1100;
+    background-color: #fff;
+    padding: 10px;
+    font-size: 14px;
+}
+.j-dataAnalyse .tab-content ul li {
+    clear: both;
+    border-bottom: 1px dashed #ddd;
+    text-align: left;
+    min-height: 54px;
+}
+.j-dataAnalyse label {
+    font-weight: normal;
+}
+.j-dataAnalyse .box label { 
+    width: 25%;
+}
+.j-dataAnalyse .yard label {
+    width: 50%
+}
+.j-dataAnalyse h5 {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+}
+.quota-item {
+    line-height: 54px;
+}
+.j-dataAnalyse input {
+    margin-right: 8px;
+    /*height: 36px;*/
+}
+.quota-item input {
+    float: right;
+    /*margin: 13px 0 0 0 !important;*/
+    margin: 0;
+    height: 54px;
+}
+
+
+/*弹框*/
+.j-dataAnalysePopup>.left{
+    position: fixed;
+    top: 20px;
+    left: 70px;
+}
+
+.j-dataAnalysePopup .smallPanel {
+    width: 249px;
+    border-radius: 4px;
+}
+.j-dataAnalysePopup>.right{
+    position: fixed;
+    top: 70px;
+    right: 20px;
+}
+.j-dataAnalysePopup .bigPanel {
+    width: 474px;
+    border-radius: 4px;
+}
+.j-dataAnalysePopup p {
+    margin: 0;
+    line-height: 26px;
+}
+.j-dataAnalysePopup .panel-title {
+    color: #818390;
+    text-align: left;
+    border-bottom: 1px solid #DBDBDB;
+    padding-left: 10px;
+    background-color: #F5F5F5;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.j-dataAnalysePopup .panel-body {
+    padding: 10px;
+    color: #818390;
+}
+.text-blue {
+    color: #809EF9;
+}
+.text-red {
+    color: #EA8185;
+}
+.text-yellow {
+    color: #F9AF23;
+}
+.text-green {
+    color: #57E16B;
+}
+

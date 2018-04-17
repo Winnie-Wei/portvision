@@ -1,0 +1,2399 @@
+[
+    {
+        "YARD_CODE": "4K",
+        "POINT": [
+        {
+            "x": 536.54,
+            "y": 394.04
+        },
+        {
+            "x": 639.43,
+            "y": 430.03
+        },
+        {
+            "x": 636.48,
+            "y": 438.05
+        },
+        {
+            "x": 534.1,
+            "y": 401.03
+        }],
+        "boxesRows": [
+            [
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": "02"
+            },
+            {
+                "tower": 0,
+                "position": "right",
+                "bayIndex": "02"
+            },
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": "06"
+            },
+            {
+                "tower": 0,
+                "position": "right",
+                "bayIndex": "06"
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": "09"
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 11
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 13
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 15
+            },
+            {
+                "tower": 2,
+                "position": "left",
+                "bayIndex": 18
+            },
+            {
+                "tower": 2,
+                "position": "right",
+                "bayIndex": 18
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 21
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 23
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 25
+            },
+            {
+                "tower": 2,
+                "position": "center",
+                "bayIndex": 27
+            },
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": 30
+            },
+            {
+                "tower": 0,
+                "position": "right",
+                "bayIndex": 30
+            },
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": 34
+            },
+            {
+                "tower": 0,
+                "position": "right",
+                "bayIndex": 34
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 37
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 39
+            },
+            {
+                "tower": 1,
+                "position": "left",
+                "bayIndex": 42
+            },
+            {
+                "tower": 1,
+                "position": "right",
+                "bayIndex": 42
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 45
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 47
+            },
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": 50
+            },
+            {
+                "tower": 0,
+                "position": "right",
+                "bayIndex": 50
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 53
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 55
+            },
+            {
+                "tower": 1,
+                "position": "center",
+                "bayIndex": 57
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 59
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 61
+            },
+            {
+                "tower": 2,
+                "position": "left",
+                "bayIndex": 64
+            },
+            {
+                "tower": 2,
+                "position": "right",
+                "bayIndex": 64
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 67
+            },
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": 70
+            }],
+            [
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": "02"
+            },
+            {
+                "tower": 0,
+                "position": "right",
+                "bayIndex": "02"
+            },
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": "06"
+            },
+            {
+                "tower": 0,
+                "position": "right",
+                "bayIndex": "06"
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": "09"
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 11
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 13
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 15
+            },
+            {
+                "tower": 1,
+                "position": "left",
+                "bayIndex": 18
+            },
+            {
+                "tower": 1,
+                "position": "right",
+                "bayIndex": 18
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 21
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 23
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 25
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 27
+            },
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": 30
+            },
+            {
+                "tower": 0,
+                "position": "right",
+                "bayIndex": 30
+            },
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": 34
+            },
+            {
+                "tower": 0,
+                "position": "right",
+                "bayIndex": 34
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 37
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 39
+            },
+            {
+                "tower": 1,
+                "position": "left",
+                "bayIndex": 42
+            },
+            {
+                "tower": 1,
+                "position": "right",
+                "bayIndex": 42
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 45
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 47
+            },
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": 50
+            },
+            {
+                "tower": 0,
+                "position": "right",
+                "bayIndex": 50
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 53
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 55
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 57
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 59
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 61
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 64
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 64
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 67
+            },
+            {
+                "tower": 1,
+                "position": "left",
+                "bayIndex": 70
+            }],
+            [
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": "02"
+            },
+            {
+                "tower": 0,
+                "position": "right",
+                "bayIndex": "02"
+            },
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": "06"
+            },
+            {
+                "tower": 0,
+                "position": "right",
+                "bayIndex": "06"
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": "09"
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 11
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 13
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 15
+            },
+            {
+                "tower": 2,
+                "position": "left",
+                "bayIndex": 18
+            },
+            {
+                "tower": 2,
+                "position": "right",
+                "bayIndex": 18
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 21
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 23
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 25
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 27
+            },
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": 30
+            },
+            {
+                "tower": 0,
+                "position": "right",
+                "bayIndex": 30
+            },
+            {
+                "tower": 1,
+                "position": "left",
+                "bayIndex": 34
+            },
+            {
+                "tower": 1,
+                "position": "right",
+                "bayIndex": 34
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 37
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 39
+            },
+            {
+                "tower": 2,
+                "position": "left",
+                "bayIndex": 42
+            },
+            {
+                "tower": 2,
+                "position": "right",
+                "bayIndex": 42
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 45
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 47
+            },
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": 50
+            },
+            {
+                "tower": 0,
+                "position": "right",
+                "bayIndex": 50
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 53
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 55
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 57
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 59
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 61
+            },
+            {
+                "tower": 2,
+                "position": "left",
+                "bayIndex": 64
+            },
+            {
+                "tower": 2,
+                "position": "right",
+                "bayIndex": 64
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 67
+            },
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": 70
+            }],
+            [
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": "02"
+            },
+            {
+                "tower": 0,
+                "position": "right",
+                "bayIndex": "02"
+            },
+            {
+                "tower": 1,
+                "position": "left",
+                "bayIndex": "06"
+            },
+            {
+                "tower": 1,
+                "position": "right",
+                "bayIndex": "06"
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": "09"
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 11
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 13
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 15
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 18
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 18
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 21
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 23
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 25
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 27
+            },
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": 30
+            },
+            {
+                "tower": 0,
+                "position": "right",
+                "bayIndex": 30
+            },
+            {
+                "tower": 2,
+                "position": "left",
+                "bayIndex": 34
+            },
+            {
+                "tower": 2,
+                "position": "right",
+                "bayIndex": 34
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 37
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 39
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 42
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 42
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 45
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 47
+            },
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": 50
+            },
+            {
+                "tower": 0,
+                "position": "right",
+                "bayIndex": 50
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 53
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 55
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 57
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 59
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 61
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 64
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 64
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 67
+            },
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": 70
+            }],
+            [
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": "02"
+            },
+            {
+                "tower": 0,
+                "position": "right",
+                "bayIndex": "02"
+            },
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": "06"
+            },
+            {
+                "tower": 0,
+                "position": "right",
+                "bayIndex": "06"
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": "09"
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 11
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 13
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 15
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 18
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 18
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 21
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 23
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 25
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 27
+            },
+            {
+                "tower": 1,
+                "position": "left",
+                "bayIndex": 30
+            },
+            {
+                "tower": 1,
+                "position": "right",
+                "bayIndex": 30
+            },
+            {
+                "tower": 1,
+                "position": "left",
+                "bayIndex": 34
+            },
+            {
+                "tower": 1,
+                "position": "right",
+                "bayIndex": 34
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 37
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 39
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 42
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 42
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 45
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 47
+            },
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": 50
+            },
+            {
+                "tower": 0,
+                "position": "right",
+                "bayIndex": 50
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 53
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 55
+            },
+            {
+                "tower": 1,
+                "position": "center",
+                "bayIndex": 57
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 59
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 61
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 64
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 64
+            },
+            {
+                "tower": 1,
+                "position": "center",
+                "bayIndex": 67
+            },
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": 70
+            }],
+            [
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": "02"
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": "02"
+            },
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": "06"
+            },
+            {
+                "tower": 0,
+                "position": "right",
+                "bayIndex": "06"
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": "09"
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 11
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 13
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 15
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 18
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 18
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 21
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 23
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 25
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 27
+            },
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": 30
+            },
+            {
+                "tower": 0,
+                "position": "right",
+                "bayIndex": 30
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 34
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 34
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 37
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 39
+            },
+            {
+                "tower": 2,
+                "position": "left",
+                "bayIndex": 42
+            },
+            {
+                "tower": 2,
+                "position": "right",
+                "bayIndex": 42
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 45
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 47
+            },
+            {
+                "tower": 1,
+                "position": "left",
+                "bayIndex": 50
+            },
+            {
+                "tower": 1,
+                "position": "right",
+                "bayIndex": 50
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 53
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 55
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 57
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 59
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 61
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 64
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 64
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 67
+            },
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": 70
+            }]
+        ]
+    },
+    {
+        "YARD_CODE": "4J",
+        "POINT": [
+        {
+            "x": 540.39,
+            "y": 382.03
+        },
+        {
+            "x": 643.5,
+            "y": 418.97
+        },
+        {
+            "x": 640.91,
+            "y": 426.04
+        },
+        {
+            "x": 537.95,
+            "y": 390.01
+        }],
+        "boxesRows": [
+            [
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": "02"
+            },
+            {
+                "tower": 0,
+                "position": "right",
+                "bayIndex": "02"
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": "06"
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": "06"
+            },
+            {
+                "tower": 4,
+                "position": "center",
+                "bayIndex": "09"
+            },
+            {
+                "tower": 4,
+                "position": "center",
+                "bayIndex": 11
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 14
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 14
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 18
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 18
+            },
+            {
+                "tower": 3,
+                "position": "center",
+                "bayIndex": 21
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 24
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 24
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 28
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 28
+            },
+            {
+                "tower": 3,
+                "position": "center",
+                "bayIndex": 31
+            },
+            {
+                "tower": 3,
+                "position": "center",
+                "bayIndex": 33
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 35
+            },
+            {
+                "tower": 1,
+                "position": "left",
+                "bayIndex": 38
+            },
+            {
+                "tower": 1,
+                "position": "right",
+                "bayIndex": 38
+            },
+            {
+                "tower": 4,
+                "position": "center",
+                "bayIndex": 41
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 44
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 44
+            },
+            {
+                "tower": 2,
+                "position": "left",
+                "bayIndex": 48
+            },
+            {
+                "tower": 2,
+                "position": "right",
+                "bayIndex": 48
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 52
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 52
+            },
+            {
+                "tower": 2,
+                "position": "center",
+                "bayIndex": 55
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 58
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 58
+            },
+            {
+                "tower": 3,
+                "position": "center",
+                "bayIndex": 61
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 64
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 64
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 68
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 68
+            },
+            {
+                "tower": 4,
+                "position": "center",
+                "bayIndex": 71
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 74
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 74
+            },
+            {
+                "tower": 2,
+                "position": "center",
+                "bayIndex": 77
+            },
+            {
+                "tower": 2,
+                "position": "center",
+                "bayIndex": 79
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 82
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 82
+            },
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": 86
+            }],
+            [
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": "02"
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": "02"
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": "06"
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": "06"
+            },
+            {
+                "tower": 3,
+                "position": "center",
+                "bayIndex": "09"
+            },
+            {
+                "tower": 4,
+                "position": "center",
+                "bayIndex": 11
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 14
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 14
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 18
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 18
+            },
+            {
+                "tower": 4,
+                "position": "center",
+                "bayIndex": 21
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 24
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 24
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 28
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 28
+            },
+            {
+                "tower": 3,
+                "position": "center",
+                "bayIndex": 31
+            },
+            {
+                "tower": 4,
+                "position": "center",
+                "bayIndex": 33
+            },
+            {
+                "tower": 4,
+                "position": "center",
+                "bayIndex": 35
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 38
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 38
+            },
+            {
+                "tower": 4,
+                "position": "center",
+                "bayIndex": 41
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 44
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 44
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 48
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 48
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 52
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 52
+            },
+            {
+                "tower": 3,
+                "position": "center",
+                "bayIndex": 55
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 58
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 58
+            },
+            {
+                "tower": 3,
+                "position": "center",
+                "bayIndex": 61
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 64
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 64
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 68
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 68
+            },
+            {
+                "tower": 4,
+                "position": "center",
+                "bayIndex": 71
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 74
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 74
+            },
+            {
+                "tower": 2,
+                "position": "center",
+                "bayIndex": 77
+            },
+            {
+                "tower": 4,
+                "position": "center",
+                "bayIndex": 79
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 82
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 82
+            },
+            {
+                "tower": 1,
+                "position": "left",
+                "bayIndex": 86
+            }],
+            [
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": "02"
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": "02"
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": "06"
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": "06"
+            },
+            {
+                "tower": 3,
+                "position": "center",
+                "bayIndex": "09"
+            },
+            {
+                "tower": 4,
+                "position": "center",
+                "bayIndex": 11
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 14
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 14
+            },
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": 18
+            },
+            {
+                "tower": 0,
+                "position": "right",
+                "bayIndex": 18
+            },
+            {
+                "tower": 3,
+                "position": "center",
+                "bayIndex": 21
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 24
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 24
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 28
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 28
+            },
+            {
+                "tower": 4,
+                "position": "center",
+                "bayIndex": 31
+            },
+            {
+                "tower": 2,
+                "position": "center",
+                "bayIndex": 33
+            },
+            {
+                "tower": 3,
+                "position": "center",
+                "bayIndex": 35
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 38
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 38
+            },
+            {
+                "tower": 4,
+                "position": "center",
+                "bayIndex": 41
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 44
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 44
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 48
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 48
+            },
+            {
+                "tower": 1,
+                "position": "left",
+                "bayIndex": 52
+            },
+            {
+                "tower": 1,
+                "position": "right",
+                "bayIndex": 52
+            },
+            {
+                "tower": 4,
+                "position": "center",
+                "bayIndex": 55
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 58
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 58
+            },
+            {
+                "tower": 3,
+                "position": "center",
+                "bayIndex": 61
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 64
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 64
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 68
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 68
+            },
+            {
+                "tower": 4,
+                "position": "center",
+                "bayIndex": 71
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 74
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 74
+            },
+            {
+                "tower": 2,
+                "position": "center",
+                "bayIndex": 77
+            },
+            {
+                "tower": 3,
+                "position": "center",
+                "bayIndex": 79
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 82
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 82
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 86
+            }],
+            [
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": "02"
+            },
+            {
+                "tower": 0,
+                "position": "right",
+                "bayIndex": "02"
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": "06"
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": "06"
+            },
+            {
+                "tower": 4,
+                "position": "center",
+                "bayIndex": "09"
+            },
+            {
+                "tower": 3,
+                "position": "center",
+                "bayIndex": 11
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 14
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 14
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 18
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 18
+            },
+            {
+                "tower": 3,
+                "position": "center",
+                "bayIndex": 21
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 24
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 24
+            },
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": 28
+            },
+            {
+                "tower": 0,
+                "position": "right",
+                "bayIndex": 28
+            },
+            {
+                "tower": 4,
+                "position": "center",
+                "bayIndex": 31
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 33
+            },
+            {
+                "tower": 4,
+                "position": "center",
+                "bayIndex": 35
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 38
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 38
+            },
+            {
+                "tower": 4,
+                "position": "center",
+                "bayIndex": 41
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 44
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 44
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 48
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 48
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 52
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 52
+            },
+            {
+                "tower": 4,
+                "position": "center",
+                "bayIndex": 55
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 58
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 58
+            },
+            {
+                "tower": 4,
+                "position": "center",
+                "bayIndex": 61
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 64
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 64
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 68
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 68
+            },
+            {
+                "tower": 2,
+                "position": "center",
+                "bayIndex": 71
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 74
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 74
+            },
+            {
+                "tower": 1,
+                "position": "center",
+                "bayIndex": 77
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 79
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 82
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 82
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 86
+            }],
+            [
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": "02"
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": "02"
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": "06"
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": "06"
+            },
+            {
+                "tower": 3,
+                "position": "center",
+                "bayIndex": "09"
+            },
+            {
+                "tower": 1,
+                "position": "center",
+                "bayIndex": 11
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 14
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 14
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 18
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 18
+            },
+            {
+                "tower": 4,
+                "position": "center",
+                "bayIndex": 21
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 24
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 24
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 28
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 28
+            },
+            {
+                "tower": 4,
+                "position": "center",
+                "bayIndex": 31
+            },
+            {
+                "tower": 3,
+                "position": "center",
+                "bayIndex": 33
+            },
+            {
+                "tower": 1,
+                "position": "center",
+                "bayIndex": 35
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 38
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 38
+            },
+            {
+                "tower": 4,
+                "position": "center",
+                "bayIndex": 41
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 44
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 44
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 48
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 48
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 52
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 52
+            },
+            {
+                "tower": 3,
+                "position": "center",
+                "bayIndex": 55
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 58
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 58
+            },
+            {
+                "tower": 4,
+                "position": "center",
+                "bayIndex": 61
+            },
+            {
+                "tower": 2,
+                "position": "left",
+                "bayIndex": 64
+            },
+            {
+                "tower": 2,
+                "position": "right",
+                "bayIndex": 64
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 68
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 68
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 71
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 74
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 74
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 77
+            },
+            {
+                "tower": 3,
+                "position": "center",
+                "bayIndex": 79
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 82
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 82
+            },
+            {
+                "tower": 1,
+                "position": "left",
+                "bayIndex": 86
+            }],
+            [
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": "02"
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": "02"
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": "06"
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": "06"
+            },
+            {
+                "tower": 2,
+                "position": "center",
+                "bayIndex": "09"
+            },
+            {
+                "tower": 2,
+                "position": "center",
+                "bayIndex": 11
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 14
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 14
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 18
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 18
+            },
+            {
+                "tower": 4,
+                "position": "center",
+                "bayIndex": 21
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 24
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 24
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 28
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 28
+            },
+            {
+                "tower": 3,
+                "position": "center",
+                "bayIndex": 31
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 33
+            },
+            {
+                "tower": 2,
+                "position": "center",
+                "bayIndex": 35
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 38
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 38
+            },
+            {
+                "tower": 0,
+                "position": "center",
+                "bayIndex": 41
+            },
+            {
+                "tower": 0,
+                "position": "left",
+                "bayIndex": 44
+            },
+            {
+                "tower": 0,
+                "position": "right",
+                "bayIndex": 44
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 48
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 48
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 52
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 52
+            },
+            {
+                "tower": 1,
+                "position": "center",
+                "bayIndex": 55
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 58
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 58
+            },
+            {
+                "tower": 4,
+                "position": "center",
+                "bayIndex": 61
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 64
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 64
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 68
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 68
+            },
+            {
+                "tower": 4,
+                "position": "center",
+                "bayIndex": 71
+            },
+            {
+                "tower": 3,
+                "position": "left",
+                "bayIndex": 74
+            },
+            {
+                "tower": 3,
+                "position": "right",
+                "bayIndex": 74
+            },
+            {
+                "tower": 4,
+                "position": "center",
+                "bayIndex": 77
+            },
+            {
+                "tower": 4,
+                "position": "center",
+                "bayIndex": 79
+            },
+            {
+                "tower": 4,
+                "position": "left",
+                "bayIndex": 82
+            },
+            {
+                "tower": 4,
+                "position": "right",
+                "bayIndex": 82
+            },
+            {
+                "tower": 2,
+                "position": "left",
+                "bayIndex": 86
+            }]
+        ]
+    }
+
+]

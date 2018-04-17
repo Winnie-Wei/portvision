@@ -1,0 +1,211 @@
+body {
+    background-color: #F5F5F5;
+}
+.btn-clicked {
+    background-color: #2081ce !important;
+}
+
+.inline-block {
+    display: inline-block !important;
+}
+.mgleft {
+    margin-left: 20px;
+}
+.nomgtop {
+    margin-top: 0;
+}
+.heading {
+    margin: 20px;
+}
+.heading h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+.panel-heading {
+    border-bottom: 0 !important;
+    background-color: #fff !important;
+}
+.panel-body {
+    height: 100%;
+    margin-top: -60px;
+    padding-top: 60px;
+    margin-bottom: -74px;
+    padding-bottom: 74px;
+}
+.panel {
+    /*height: calc(100% - 118px);*/
+    margin: 0;
+    height: 100%;
+}
+.wraper {
+    margin: 0 20px;
+    height: 100%;
+    margin-top: -73.33px;
+    padding-top: 77.33px;
+    padding-bottom: 30px;
+}
+.searchInput input {
+    height: 34px;
+    width: 180px !important;
+}
+.btn.active {
+    color: #fff !important;
+    background-color: #2893e8 !important;
+}
+.table.over {
+    border-collapse: collapse;
+}
+.table tbody tr:nth-child(odd) {
+    background-color: #EFFAFE;
+}
+.table tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+.table.over th{
+  width: 15%;
+}
+.table.over th:nth-child(5) {
+  width: 26%;
+}
+
+.table.filterTheadOne th {
+  width: 19%;
+}
+.table.filterTheadOne th:nth-child(5) {
+  width: 25%;
+}
+
+.table.filterTheadTwo th{
+  width: 25%;
+}
+
+.btn:focus {
+    box-shadow: none;
+    outline: none !important;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.readFlag {
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+}
+.go-back {
+    padding: 0;
+    border: 0;
+}
+.go-back a {
+    display: block;
+    width: 70px;
+    height: 100%;
+    line-height: 34px;
+    background-color: #2893e8;
+    color: white;
+    border-radius: 3px;
+}
+.go-back a:hover {
+    text-decoration: none;
+}
+.searchInput .btn {
+    background-color: #2893e8;
+    color: #fff;
+}
+.num {
+    color: #2893e8;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 4px;
+}
+#inputjqxDate {
+    padding-left: 13px !important;
+}
+.export {
+    border-radius: 4px;
+    width: 34px;
+    height: 34px;
+    background: #2893e8 url(./images/icon-export.png) no-repeat center;
+}
+.filter {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 4px;
+}
+.theadFilter {
+    background: #2893e8 url(./images/icon-filter-default.png) no-repeat center;
+    width: 34px;
+    height: 34px;
+    /*margin-left: 20px;*/
+}
+.contentFilter {
+    width: 11px;
+    height: 16px;
+    margin-left: 6px;
+    background: url(./images/icon-filter-gray.png) no-repeat center;
+}
+.contentFilter.active {
+    background-color: #fff !important;
+    background-image: url(./images/icon-filter-blue.png);
+}
+.contentFilter.light {
+    background-image: url(./images/icon-filter-blue.png);
+}
+.dropDown {
+    border-radius: 4px;
+    list-style: none;
+    position: absolute;
+    right: -30px;
+    top: 120%;
+    /*width: 100px;*/
+    padding: 8px;
+    background: #fff;
+    border: 1px solid #ccc;
+    z-index: 1000;
+}
+.dropDown li {
+    white-space: nowrap;
+    /*margin-right: 10px;*/
+}
+.dropDown li span {
+    display: inline-block;
+    margin-left: 10px;
+    /*white-space: nowrap;*/
+    /*margin-right: 10px;*/
+}
+.page {
+    margin-top: 20px;
+}
+ul.pagination {
+    margin: 0;
+}
+ul.pagination li {
+    display: inline-block;
+    float: left;
+}
+.inputPage {
+    width: 50px;
+    height: 34px;
+}
+.jqx-action-button.active {
+    background-color: #2893e8 !important;
+}
+.jqx-action-button.active .jqx-icon-calendar{
+    background-image: url(./images/icon-calendar-trans.png);
+}
+.sort {
+    display: inline-block;
+    width: 10px;
+    height: 16px;
+    margin-left: 6px;
+    vertical-align: middle;
+}
+.sort.default {
+    height: 16px;
+    background: url(./images/icon-sort-default.png) no-repeat;
+}
+.sort.asc {
+    background-image: url(./images/icon-sort-asc.png);
+}
+.sort.desc {
+    background-image: url(./images/icon-sort-desc.png);
+}
